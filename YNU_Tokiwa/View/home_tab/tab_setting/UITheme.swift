@@ -15,7 +15,7 @@ enum isDarkMode: Int{
     var colorScheme: ColorScheme? {
         switch self {
             case .phone:
-                return .none
+                return nil
             case .light:
                 return .light
             case .dark:
@@ -26,7 +26,7 @@ enum isDarkMode: Int{
 
 
 struct UITheme: View {
-    @State var isPresent : isDarkMode = .phone
+//    @State var UItheme : isDarkMode = .phone
     @Environment(\.dismiss) var dismiss
     @AppStorage("UItheme") var UItheme: isDarkMode = .phone
 
@@ -34,32 +34,35 @@ struct UITheme: View {
         List{
             Section{
                 Button{
-                    isPresent = .light
+                    UItheme = .light
                 }label: {
                     HStack {
                         Label("ライトモード", systemImage: "sun.max.circle")
                         Spacer()
-                        isChecked(isPresent: isPresent, Presented: .light)
+                        isChecked(UItheme: UItheme, Presented: .light)
                     }
                     .padding(.trailing)
                 }
                 Button{
-                    isPresent = .dark
+                    UItheme = .dark
                 }label: {
                     HStack {
                         Label("ダークモード", systemImage: "moon.stars.circle")
                         Spacer()
-                        isChecked(isPresent: isPresent, Presented: .dark)
+                        isChecked(UItheme: UItheme, Presented: .dark)
                     }
                     .padding(.trailing)
                 }
                 Button{
-                    isPresent = .phone
+                    UItheme = .phone
+//                    DispatchQueue.main.async {
+//                            UIApplication.shared.windows.first?.rootViewController?.view.setNeedsLayout()
+//                        }
                 }label: {
                     HStack {
                         Label("本体の設定", systemImage: "iphone.gen1.circle")
                         Spacer()
-                        isChecked(isPresent: isPresent, Presented: .phone)
+                        isChecked(UItheme: UItheme, Presented: .phone)
                     }
                     .padding(.trailing)
                 }
@@ -79,6 +82,8 @@ struct UITheme: View {
             }
         }
         .navigationBarBackButtonHidden(true)
+//        Text("現在のテーマ: \(UItheme.colorScheme)")
+//            .padding()
 
     }
 }
@@ -90,8 +95,8 @@ struct UITheme: View {
 
 extension UITheme{
     @ViewBuilder
-    func isChecked(isPresent: isDarkMode ,Presented: isDarkMode) -> some View{
-        return Image(systemName: isPresent == Presented ? "checkmark.circle.fill" : "circle.slash")
+    func isChecked(UItheme: isDarkMode ,Presented: isDarkMode) -> some View{
+        Image(systemName: UItheme == Presented ? "checkmark.circle.fill" : "circle.slash")
             .foregroundStyle(.blue)
     }
 }

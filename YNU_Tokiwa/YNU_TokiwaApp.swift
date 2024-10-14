@@ -9,10 +9,13 @@ import SwiftUI
 
 @main
 struct YNU_TokiwaApp: App {
+    @AppStorage("UItheme") var UItheme: isDarkMode = .phone
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
-//                .preferredColorScheme(.light)
+                .preferredColorScheme(UItheme.colorScheme ?? .none)
+//                .preferredColorScheme(nil)
         }
     }
 }
