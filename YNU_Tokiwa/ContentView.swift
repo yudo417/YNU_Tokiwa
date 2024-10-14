@@ -32,29 +32,31 @@ struct ContentView: View {
                 TabView(selection: $home_tab){
                     tab_money()
                         .tabItem {
-                            Label("cal",systemImage: "yensign.arrow.circlepath")
+                            Label("Cal",systemImage: "yensign.arrow.circlepath")
                                 .background(.gray.opacity(0.5))
                         }
                         .tag(tabColor.cal)
                     
                     tab_home()
                         .tabItem {
-                            Label("home",systemImage: "house.fill")
+                            Label("Home",systemImage: "house.fill")
                         }
                         .tag(tabColor.home)
                     
-                    tab_setting()
-                        .tabItem {
-                            Label("setting",systemImage: "wrench.and.screwdriver.fill")
-                        }
-                        .tag(tabColor.setting)
                     
                     tab_bookmark()
                         .tabItem {
-                            Label("bookmark",systemImage: "bookmark")
+                            Label("Bookmark",systemImage: "bookmark")
                         }
                         .tag(tabColor.bookmark)
-                    
+                    tab_setting()
+                        .tabItem {
+                            Label("Others",systemImage: "book.and.wrench")
+//                            Text("setting")
+//                            Image(systemName: "book.and.wrench")
+                        }
+                        .tag(tabColor.setting)
+
                     
                     
                 }

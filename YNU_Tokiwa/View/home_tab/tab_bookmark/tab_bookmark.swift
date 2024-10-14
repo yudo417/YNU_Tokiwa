@@ -10,7 +10,7 @@ import SwiftUI
 struct tab_bookmark: View {
     var body: some View {
         VStack{
-            Image(systemName: "filemenu.and.cursorarrow")
+            Image(systemName: "bookmark")
                 .resizable()
                 .frame(width: 80, height: 80)
                 .foregroundStyle(.blue)
