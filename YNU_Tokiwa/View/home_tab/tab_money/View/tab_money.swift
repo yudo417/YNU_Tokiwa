@@ -8,15 +8,24 @@
 import SwiftUI
 
 struct tab_money: View {
-
+    @State var isadd: Bool = false
+    @ObservedObject var  mvm = MoneyViewModel()//@publishに変更があった場合再描画
     var body: some View {
+
         NavigationStack {
             ZStack {
                 content
-                addbutton
+                subField
             }
-            .navigationTitle("レシートを追加")
+            .navigationTitle("レシート一覧")
             .navigationBarTitleDisplayMode(.inline)
+        }
+        .sheet(isPresented: $isadd) {
+            addView(mvm: mvm)
+        }
+        .onAppear{
+            //            mvm.receipts = mvm.loadReceipts()
+            print("nowdata:\(mvm.receipts)")
         }
     }
 }
@@ -32,39 +41,47 @@ extension tab_money{
         VStack {
             ScrollView {
                 VStack{
-                    ForEach(Receipt.MOCKS){ MOCK in
-                        moneyCardView(mock: MOCK)
-                            .padding(.horizontal)
+
+                    ForEach(mvm.receipts){ MOCK in
+                        moneyCardView(mock: MOCK){  receipt in
+                            mvm.deleteReceipt(receipt)
+                        }
+                        .padding(.horizontal)
+
                     }
                 }
             }
+//            Rectangle()
+//                .frame(height: 80)
+            .padding(.bottom,80)
         }
         .background(.gray.opacity(0.2))
     }
 
-    private var addbutton: some View{
-        VStack(alignment:.trailing){
+    private var subField: some View{
+        VStack(alignment:.trailing,spacing:0){
             Spacer()
-            HStack {
+            HStack(spacing:0){
+                Label("合計:", systemImage: "cart")
+                    .font(.title)
+                Spacer()
+                Text("¥"+String(mvm.sum))
+                    .font(.title)
                 Spacer()
                 Button {
-                    print("追加ボタン")
+                    isadd = true
                 } label: {
-                    Image(systemName: "pencil.tip.crop.circle.badge.plus")
-                        .resizable()
-                        .frame(width: 60, height: 60)
-                        .foregroundStyle(.blue)
-                        .padding(10)
-                        .background{
-                            Circle()
-                                .foregroundStyle(.cyan.opacity(0.1))
-                        }
-                        .padding()
+                             Image(systemName: "pencil.tip.crop.circle.badge.plus")
+                                 .resizable()
+                                 .frame(width: 60, height: 60)
+                                 .foregroundStyle(.blue)
+                    .padding(2)
                 }
             }
+            .padding(.horizontal)
 
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)
-//                .border(.red)
+        //                .border(.red)
     }
 }

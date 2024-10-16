@@ -9,6 +9,8 @@ import SwiftUI
 
 struct moneyCardView: View {
     let mock: Receipt
+    let deletereceipt: (Receipt) -> Void
+    @State var istrash : Bool = false
     var body: some View {
         HStack{
             Spacer()
@@ -23,13 +25,24 @@ struct moneyCardView: View {
             Capsule()
                 .foregroundStyle(.white)
         }
+        .alert("要素の削除", isPresented: $istrash) {
+            Button("削除",role: .destructive){
+                deletereceipt(mock)
+            }
+            Button("キャンセル",role: .cancel){
+                print("削除がキャンセルされた")
+            }
+        } message: {
+            Text("完全に削除されます")
+        }
+
     }
 }
 
 
-#Preview {
-    moneyCardView(mock: Receipt(id: "1", ShopName: "Test", value: "10000"))
-}
+//#Preview {
+//    moneyCardView(mock: Receipt(id: "1", ShopName: "Test", value: "10000"))
+//}
 
 
 extension moneyCardView{
@@ -49,7 +62,7 @@ extension moneyCardView{
 
     private var trash: some View{
         Button{
-            print("削除ボタン")
+            istrash.toggle()
         }label: {
             Image(systemName: "trash")
                 .resizable()

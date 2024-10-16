@@ -12,6 +12,7 @@ enum tabColor{
     case cal
     case bookmark
     case setting
+    case search
 }
 
 
@@ -36,7 +37,14 @@ struct ContentView: View {
                                 .background(.gray.opacity(0.5))
                         }
                         .tag(tabColor.cal)
-                    
+
+                    tab_serach()
+                        .tabItem {
+                            Label("Search",systemImage: "doc.text.magnifyingglass")
+                                .background(.gray.opacity(0.5))
+                        }
+                        .tag(tabColor.search)
+
                     tab_home()
                         .tabItem {
                             Label("Home",systemImage: "house.fill")
@@ -52,8 +60,6 @@ struct ContentView: View {
                     tab_setting()
                         .tabItem {
                             Label("Others",systemImage: "book.and.wrench")
-//                            Text("setting")
-//                            Image(systemName: "book.and.wrench")
                         }
                         .tag(tabColor.setting)
 
@@ -86,6 +92,8 @@ extension ContentView{
             return .yellow
         case .setting:
             return .primary
+        case .search:
+            return .blue
 //        default:
 //            return .blue
         }
