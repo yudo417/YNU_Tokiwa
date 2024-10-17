@@ -77,6 +77,8 @@ extension tab_money{
                                  .foregroundStyle(.blue)
                     .padding(2)
                 }
+                .buttonStyle(.plain)
+                
             }
             .padding(.horizontal)
 

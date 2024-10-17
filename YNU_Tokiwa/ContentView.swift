@@ -85,7 +85,7 @@ extension ContentView{
     private var tab_color: Color{
         switch home_tab {
         case .home:
-            return .red
+            return .cyan
         case .bookmark:
             return .blue
         case .cal:
