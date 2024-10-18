@@ -13,7 +13,7 @@ struct tab_setting: View {
 
         NavigationStack {
             VStack {
-                List {
+                Form {
                     Section {
                         NavigationLink{
                                 UITheme()
@@ -37,7 +37,29 @@ struct tab_setting: View {
                         
                         OfficialLinkButton(iconImage: "instagram_icon", URLString: "https://www.instagram.com/ynu_fes/", title: "大学祭実行委員会instagram")
                         OfficialLinkButton(iconImage: "building.columns.fill",URLString: "https://ynu-fes.yokohama/24/tokiwa/", title: "24常盤祭公式HP〜夢灯〜",iconBool: false)
-                        
+                        NavigationLink {
+                            WebView(urlToLoad: "https://ynu-fes.yokohama/24/tokiwa/")
+                        } label: {
+                            HStack {
+
+                                    Image(systemName:"x_icon")
+                                        .resizable()
+                                        .frame(width: 20, height: 20)
+
+                                Text("title")
+                                    .foregroundStyle(.blue)
+
+                                Spacer()
+
+
+                                Image(systemName: "paperplane")
+
+                            }
+                        }
+
+
+
+
                     }header: {
                         HStack{
                             Image(systemName: "link.circle")
@@ -59,4 +81,29 @@ struct tab_setting: View {
 
 #Preview {
     tab_setting()
+}
+
+import WebKit
+
+struct WebView: UIViewRepresentable {
+
+    var urlToLoad : String
+
+    func makeUIView(context: Context) -> WKWebView {
+
+        guard let url = URL(string: self.urlToLoad) else {
+            return WKWebView()
+        }
+
+        let webview = WKWebView()
+
+        webview.load(URLRequest(url: url))
+
+
+        return webview
+    }
+
+    func updateUIView(_ uiView: WKWebView, context: UIViewRepresentableContext<WebView>) {
+
+    }
 }

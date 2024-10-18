@@ -39,6 +39,7 @@ struct ShopElement: View {
     }
 }
 
-//#Preview {
-//    ShopElement()
-//}
+#Preview {
+    @State var isSeet = false
+    ShopElement(isSheet: $isSeet)
+}

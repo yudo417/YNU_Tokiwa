@@ -50,9 +50,11 @@ extension moneyCardView{
     private var literal: some View{
         VStack(alignment:.center,spacing: 5){
             Text(mock.ShopName)
-                .font(.largeTitle)
+                .font(.title2)
                 .bold()
                 .foregroundStyle(.black)
+                .frame(alignment:.center)
+                .lineLimit(1)
             Divider()
             Text("¥"+mock.value)
                 .font(.title)
