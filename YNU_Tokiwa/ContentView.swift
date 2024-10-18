@@ -21,7 +21,6 @@ struct ContentView: View {
     init() {
         let appearance = UITabBarAppearance()
         appearance.configureWithOpaqueBackground()
-        appearance.backgroundColor = .red
         UITabBar.appearance().standardAppearance = appearance
 
     }

@@ -47,17 +47,11 @@ struct tab_home: View {
                             }
                         }
                     }
-
                 }
-                //                    .animation(.linear(duration: 1))
-
-
-
-
             }
 
-            .scaleEffect(x: reverse ? -1 : 1, y: 1)
-            .rotation3DEffect(.degrees(isyy), axis: (x:0,y:-1,z:0.0))
+            .scaleEffect(x: reverse ? -1 : 1, y: 1) //反転
+            .rotation3DEffect(.degrees(isyy), axis: (x:0,y:-1,z:0.0))//回転
             .toolbar{
                 ToolbarItem(placement: .topBarLeading) {
                     Button {
