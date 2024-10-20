@@ -8,11 +8,22 @@
 import SwiftUI
 
 struct DisclosureLabel: View {
+    let title: String
+    let titleColor: Color
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack {
+            Text(title)
+                .foregroundStyle(titleColor)
+        Spacer()
+        Divider()
+        Image(systemName: "mappin.and.ellipse")
+                .foregroundStyle(.red)
+        }
+        .padding(.leading,10)
+        .padding(.trailing,30)
     }
 }
 
 #Preview {
-    DisclosureLabel()
+    DisclosureLabel(title: "タイトル",titleColor: Color.red)
 }

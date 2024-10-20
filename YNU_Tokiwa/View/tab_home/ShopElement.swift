@@ -8,25 +8,29 @@
 import SwiftUI
 
 struct ShopElement: View {
-    @Binding var isSheet: Bool
+    @Binding var currentshop : Shop
+    @EnvironmentObject var svm: ShopViewModel
+//    @EnvironmentObject var
     var body: some View {
 
 
         HStack(spacing:10){
-            Circle()
+            Image(systemName: currentshop.genreIcon)
                 .frame(width: 15, height: 15)
             //                Spacer()
-            Text("店名店名店名店名店名店名店名店名店名店名店名店名店名店名店名店名店名")
+            Text(currentshop.title)
                 .lineLimit(1)
             Spacer()
             Divider()
             //                    .frame(width: 15, height: 15)
             Button {
-                isSheet.toggle()
-                print(isSheet)
+                withAnimation{
+                    currentshop.isSheet = true
+                }
+                print(currentshop.isSheet)
             } label: {
                 HStack {
-                    Text("202")
+                    Text(currentshop.place)
                     Image(systemName: "arrowshape.turn.up.right")
                         .font(.system(size:20))
                         .foregroundStyle(.blue)
@@ -34,12 +38,16 @@ struct ShopElement: View {
             }
             .buttonStyle(.plain)
         }
+        .sheet(isPresented: $currentshop.isSheet) {
+            DetailElement(currentshop:$currentshop)
+        }
 
 
     }
 }
 
-#Preview {
-    @State var isSeet = false
-    ShopElement(isSheet: $isSeet)
-}
+//#Preview {
+//    @EnvironmentObject var svm: ShopViewModel
+//    ShopElement(currentshop:$svm.Shops[0])
+//        .environmentObject(ShopViewModel())
+//}

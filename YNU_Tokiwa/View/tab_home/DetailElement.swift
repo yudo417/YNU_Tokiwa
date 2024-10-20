@@ -8,25 +8,29 @@
 import SwiftUI
 
 struct DetailElement: View {
+    @Binding var currentshop: Shop
     var body: some View {
         Form{
             Section(){
 
                 HStack{
                     VStack(){
-                        Text("タイトル")
+                        Text(currentshop.title)
                             .font(.title)
 //                            .centered()
                         HStack{
                             Spacer()
-                                    Text("by　サークル名")
+                            Text("by　\(currentshop.club)")
                                         .font(.title3)
+                                        .centered()//センター寄せのつもり、レイアウト怖い、修正あるかも
                             Spacer()
                                     Button {
-                                        print("ブックマーク押された")
+                                        currentshop.isBookmark.toggle()
+                                        UserDefaults.standard.set(currentshop.isBookmark, forKey: "\(currentshop.id)")
                                     } label: {
-                                        Image(systemName: "bookmark")
+                                        Image(systemName: currentshop.isBookmark ? "bookmark.fill" : "bookmark")
                                             .font(.system(size:20))
+                                            .padding()
 //                                            .padding(.leading,100)
 //                                            .offset(x:10)
                                     }
@@ -39,11 +43,11 @@ struct DetailElement: View {
                 HStack{
                     Text("分類")
                     Text("(")
-                    Image(systemName: "fork.knife")
+                    Image(systemName: currentshop.genreIcon)
                         .foregroundStyle(.yellow)
                     Text(")")
                     Divider()
-                    Text("食品、販売")
+                    Text(currentshop.kind)
                         .centered()
                 }
 
@@ -54,14 +58,15 @@ struct DetailElement: View {
                         .foregroundStyle(.red)
                     Text(")")
                     Divider()
-                    Text("都市科学部棟202")
+                    Text("\(currentshop.area)  \(currentshop.place)")
                         .centered()
                 }
             }
         }
     }
 }
-
-#Preview {
-    DetailElement()
-}
+//
+//#Preview {
+//    
+//    DetailElement()
+//}

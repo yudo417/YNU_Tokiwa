@@ -53,9 +53,11 @@ class MoneyViewModel:ObservableObject {
     }
 
     func deleteReceipt(_ receipt:Receipt){
-        self.receipts.removeAll(where:{
-            $0.id == receipt.id
-        })
+        withAnimation(.linear(duration: 0.2)){  //視差効果
+            self.receipts.removeAll(where:{
+                $0.id == receipt.id
+            })
+        }
         let encoder = JSONEncoder()
         do {
             let encoded = try encoder.encode(receipts)

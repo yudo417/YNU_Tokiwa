@@ -37,25 +37,7 @@ struct tab_setting: View {
                         
                         OfficialLinkButton(iconImage: "instagram_icon", URLString: "https://www.instagram.com/ynu_fes/", title: "大学祭実行委員会instagram")
                         OfficialLinkButton(iconImage: "building.columns.fill",URLString: "https://ynu-fes.yokohama/24/tokiwa/", title: "24常盤祭公式HP〜夢灯〜",iconBool: false)
-                        NavigationLink {
-                            WebView(urlToLoad: "https://ynu-fes.yokohama/24/tokiwa/")
-                        } label: {
-                            HStack {
 
-                                    Image(systemName:"x_icon")
-                                        .resizable()
-                                        .frame(width: 20, height: 20)
-
-                                Text("title")
-                                    .foregroundStyle(.blue)
-
-                                Spacer()
-
-
-                                Image(systemName: "paperplane")
-
-                            }
-                        }
 
 
 

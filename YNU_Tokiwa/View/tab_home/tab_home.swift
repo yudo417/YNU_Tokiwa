@@ -10,19 +10,6 @@ import SwiftUI
 
 struct tab_home: View {
 
-    @State var isCity: Bool = false
-    @State var isEcon: Bool = false
-    @State var isEdu: Bool = false
-    @State var isSci: Bool = false
-    @State var isOther: Bool = false
-    @State var isA_block:Bool = false
-    @State var isB_block:Bool = false
-    @State var isC_block:Bool = false
-    @State var isD_block:Bool = false
-    @State var isE_block:Bool = false
-    @State var isF_block:Bool = false
-    @State var isY_block:Bool = false
-
     @EnvironmentObject var svm: ShopViewModel
     @State var isExpanded: Bool = false
     @State var reverse: Bool = false
@@ -36,62 +23,28 @@ struct tab_home: View {
 
 
                 if reverse {
-                    BackSurface()
+                    BackSurface(reverse: $reverse,isy: $isy,isyy: $isyy)
                 }else{
                     Form {
-                        Section{
-                            DisclosureGroup(isExpanded: $isCity) {
-                                NavigationStack{
-                                    VStack(alignment:.leading){
-                                        ShopElement(isSheet: $isSheet)
-                                        Divider()
-//                                        ShopElement()
-
+                        
+                        // MARK: -Sectionここまで
+                        ForEach(Array(svm.homeUIDatas.enumerated()),id:\.element.id){ index,homeUIdata in
+                            Section{
+                                DisclosureGroup(isExpanded: $svm.homeUIDatas[index].isClosure) {
+                                    NavigationStack{
+                                        VStack(alignment:.leading){
+                                            ForEach(svm.Shops.enumerated().filter{$0.1.area == homeUIdata.area}.map{$0.0},id:\.self){ selectedIndex in
+                                                ShopElement(currentshop: $svm.Shops[selectedIndex])
+                                            }
+                                            Divider()
+                                        }
                                     }
+                                } label: {
+                                    DisclosureLabel(title: homeUIdata.area,titleColor: homeUIdata.titleColor)
                                 }
-                            } label: {
-                                HStack {
-                                    Text(svm.Shops[0].title)
-                                        .frame(maxWidth: .infinity)
-
-
-                                Spacer()
-                                Divider()
-                                Image(systemName: "mappin.and.ellipse")
-                                        .foregroundStyle(.red)
-                                }
-                                .padding(.leading,10)
-                                .padding(.trailing,30)
-                                //                            .resizable()
-                                //                            .font(.system(size:30))
                             }
                         }
 
-
-                        Section{
-                            DisclosureGroup(isExpanded: $isExpanded) {
-                                NavigationStack{
-                                    VStack(alignment:.leading){
-                                        ShopElement(isSheet: $isSheet)
-                                        Divider()
-//                                        ShopElement()
-
-                                    }
-                                }
-                            } label: {
-                                HStack {
-                                Text("タイトル")
-                                Spacer()
-                                Divider()
-                                Image(systemName: "mappin.and.ellipse")
-                                        .foregroundStyle(.red)
-                                }
-                                .padding(.leading,10)
-                                .padding(.trailing,30)
-                                //                            .resizable()
-                                //                            .font(.system(size:30))
-                            }
-                        }
                     }
                 }
             }
@@ -115,9 +68,7 @@ struct tab_home: View {
             }
             .navigationTitle("一覧")
             .navigationBarTitleDisplayMode(.inline)
-            .sheet(isPresented: $isSheet) {
-                DetailElement()
-            }
+
         }
     }
 }
@@ -126,6 +77,7 @@ struct tab_home: View {
     tab_home()
         .environmentObject(ShopViewModel())
 }
+
 
 
 

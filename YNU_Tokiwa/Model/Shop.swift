@@ -5,7 +5,7 @@
 //  Created by 林　一貴 on 2024/10/18.
 //
 
-import Foundation
+import SwiftUI
 
 struct Shop: Codable,Identifiable {
 
@@ -16,6 +16,17 @@ struct Shop: Codable,Identifiable {
     let kind: String
     let place: String
     let area: String
+    var isSheet: Bool
     var isBookmark: Bool
     let supplement: String?
+    let keywords : [String]
+}
+
+struct homeUIData{
+
+    let id: String
+    let area: String
+    var isClosure: Bool
+    let titleColor: Color
+
 }

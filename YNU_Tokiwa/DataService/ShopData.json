@@ -1,68 +1,92 @@
 [
-{
-    "id":"1",
-    "title":"軽音常盤ライブ2023",
-    "club":"軽音楽部",
-    "genreIcon":"music.note",
-    "kind":"ライブ",
-    "place":"101",
-    "area":"都市科学部棟",
-    "isBookmark":false,
-    "supplement":""
-},
-{
-    "id":"2",
-    "title":"劇団三日月座　特別公演",
-    "club":"劇団三日月座",
-    "genreIcon":"music.note",
-    "kind":"演劇公演",
-    "place":"202",
-    "area":"都市科学部棟",
-    "isBookmark":false,
-    "supplement":""
-},
-{
-    "id":"3",
-    "title":"青春を取り戻せサイテッカー",
-    "club":"SCITEX",
-    "genreIcon":"rectangle.inset.filled.and.person.filled",
-    "kind":"展示、物品販売",
-    "place":"103",
-    "area":"経済・経営学部1号館",
-    "isBookmark":false,
-    "supplement":""
-},
-{
-    "id":"4",
-    "title":"横国げんしけん",
-    "club":"横国げんしけん",
-    "genreIcon":"music.note",
-    "kind":"声優を招待したトークショー",
-    "place":"201",
-    "area":"理工学部A棟",
-    "isBookmark":false,
-    "supplement":""
-},
-{
-    "id":"5",
-    "title":"遊び場ルーガルー",
-    "club":"人狼ボドゲサークルルーガルー C",
-    "genreIcon":"rectangle.inset.filled.and.person.filled",
-    "kind":"自作・既存ボードゲームの体験",
-    "place":"E7",
-    "area":"E block",
-    "isBookmark":false,
-    "supplement":""
-},
-{
-    "id":"6",
-    "title":"ふれあい牧場　よここく",
-    "club":"横国ヤギ部",
-    "genreIcon":"rectangle.inset.filled.and.person.filled",
-    "kind":"ヤギとのふれ合い・観察",
-    "place":"IX",
-    "area":"The others",
-    "isBookmark":false,
-    "supplement":""
-}
+    {
+        "id":"1",
+        "title":"軽音常盤ライブ2023",
+        "club":"軽音楽部",
+        "genreIcon":"music.note",
+        "kind":"ライブ",
+        "place":"101",
+        "area":"都市科学部棟",
+        "isSheet":false,
+        "isBookmark":false,
+        "supplement":"",
+        "keywords":[
+            "軽音常盤ライブ2023","軽音楽部"
+        ]
+    },
+    {
+        "id":"2",
+        "title":"劇団三日月座　特別公演",
+        "club":"劇団三日月座",
+        "genreIcon":"music.note",
+        "kind":"演劇公演",
+        "place":"202",
+        "area":"都市科学部棟",
+        "isSheet":false,
+        "isBookmark":false,
+        "supplement":"",
+        "keywords":[
+            "劇団三日月座　特別公演","劇団三日月座"
+        ]
+    },
+    {
+        "id":"3",
+        "title":"青春を取り戻せサイテッカー",
+        "club":"SCITEX",
+        "genreIcon":"rectangle.inset.filled.and.person.filled",
+        "kind":"展示、物品販売",
+        "place":"103",
+        "area":"経済・経営学部1号館",
+        "isSheet":false,
+        "isBookmark":false,
+        "supplement":"",
+        "keywords":[
+            "青春を取り戻せサイテッカー","SCITEX"
+        ]
+    },
+    {
+        "id":"4",
+        "title":"横国げんしけん",
+        "club":"横国げんしけん",
+        "genreIcon":"music.note",
+        "kind":"声優を招待したトークショー",
+        "place":"201",
+        "area":"理工学部A棟",
+        "isSheet":false,
+        "isBookmark":false,
+        "supplement":"",
+        "keywords":[
+            "横国げんしけん","声優"
+        ]
+    },
+    {
+        "id":"5",
+        "title":"遊び場ルーガルー",
+        "club":"人狼ボドゲサークルルーガルー C",
+        "genreIcon":"rectangle.inset.filled.and.person.filled",
+        "kind":"自作・既存ボードゲームの体験",
+        "place":"E7",
+        "area":"E block",
+        "isSheet":false,
+        "isBookmark":false,
+        "supplement":"",
+        "keywords":[
+            "遊び場ルーガルー","人狼ボドゲサークルルーガルー C"
+        ]
+    },
+    {
+        "id":"6",
+        "title":"ふれあい牧場　よここく",
+        "club":"横国ヤギ部",
+        "genreIcon":"rectangle.inset.filled.and.person.filled",
+        "kind":"ヤギとのふれ合い・観察",
+        "place":"IX",
+        "area":"The others",
+        "isSheet":false,
+        "isBookmark":false,
+        "supplement":"",
+        "keywords":[
+            "ふれあい牧場　よここく","横国ヤギ部"
+        ]
+    }
 ]
