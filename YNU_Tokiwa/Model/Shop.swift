@@ -22,7 +22,7 @@ struct Shop: Codable,Identifiable {
     let keywords : [String]
 }
 
-struct homeUIData{
+struct homeUIData:Identifiable,Hashable{
 
     let id: String
     let area: String

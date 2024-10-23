@@ -16,6 +16,7 @@ struct tab_home: View {
     @State var isy : Bool = false
     @State var isyy : CGFloat = 0
     @State var isSheet : Bool = false
+    @State var allSheetState : Bool = false // 全部のクロージャーの開閉制御
     var body: some View {
 
         NavigationStack {
@@ -46,6 +47,25 @@ struct tab_home: View {
                         }
 
                     }
+                    .toolbar{
+                        ToolbarItem(placement:.topBarTrailing){
+                            Button{
+                                allSheetState.toggle()
+
+                                //MARK: ForEachだとコンパイラの処理を超えて固まるなんでやねん（原因不明）
+                                for homeUIdata in svm.homeUIDatas{
+                                    let index: Int = svm.homeUIDatas.firstIndex(where: {$0.id == homeUIdata.id})!
+                                    withAnimation(.linear(duration:0.2)){
+                                        svm.homeUIDatas[index].isClosure = allSheetState ? true : false
+                                    }
+
+                                }
+                            }label:{
+                                Image(systemName: "folder.badge.gearshape")
+                                    .font(.title2)
+                            }
+                        }
+                    }
                 }
             }
 
@@ -59,9 +79,9 @@ struct tab_home: View {
                             reverse.toggle()    //反転
                             isyy = isy ? 180 : 0
                         }
-                        print(reverse)
                     } label: {
                         Image(systemName: "arrow.triangle.2.circlepath.doc.on.clipboard")
+                            .font(.title)
                     }
 
                 }

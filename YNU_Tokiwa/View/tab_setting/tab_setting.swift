@@ -25,9 +25,14 @@ struct tab_setting: View {
                                 Text("画面のテーマ")
                             }
                         }
-                        Text("a")
                     } header: {
-                        Label("設定",systemImage: "wrench.and.screwdriver.fill")
+                        HStack{
+                            Image(systemName: "hand.tap.fill")
+                                .font(.headline)
+                                .symbolRenderingMode(.palette)
+                                .foregroundStyle(.primary,.blue)
+                            Text("その他")
+                        }
                     }
                     
                     // MARK: -公式サイトリンク
@@ -56,6 +61,8 @@ struct tab_setting: View {
             .safeAreaInset(edge: .bottom) {
                 Color.clear.frame(height: 50) // TabBarと重ならないようにスペースを確保
             }
+            .navigationTitle("Others")
+            .navigationBarTitleDisplayMode(.inline)
         }
 //        .padding(1)
     }

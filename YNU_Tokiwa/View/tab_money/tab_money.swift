@@ -75,12 +75,12 @@ extension tab_money{
                                  .resizable()
                                  .frame(width: 60, height: 60)
                                  .foregroundStyle(.blue)
-                    .padding(2)
+                    .padding(10)
                 }
                 .buttonStyle(.plain)
                 
             }
-            .padding(.horizontal)
+            .padding(10)
 
         }
         .frame(maxWidth: .infinity, maxHeight: .infinity)

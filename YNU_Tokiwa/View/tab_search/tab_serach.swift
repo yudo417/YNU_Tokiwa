@@ -13,13 +13,14 @@ struct tab_serach: View {
     @State var textResult: String = ""
     @FocusState var isText : Bool
     var body: some View {
+        NavigationStack {
             VStack{
-
-//MARK: -UI
+                
+                //MARK: -UI
                 HStack{
                     Image(systemName: "magnifyingglass")
                         .padding(.leading,15)
-                    TextField("検索", text: $text)
+                    TextField("団体名、キーワード等を入力", text: $text)
                     //                    .border(.black, width: 1)
                         .frame(width: .infinity, height:40)
                         .focused($isText)
@@ -34,7 +35,7 @@ struct tab_serach: View {
                                         Text("閉じる")
                                     }
                                 }
-
+                                
                             }
                         }
                         .onSubmit {
@@ -53,11 +54,11 @@ struct tab_serach: View {
                             .font(.system(size:30))
                             .foregroundStyle(Color.Primary.opacity(0.5))
                             .padding(5)
-//                            .border(.red)
+                        //                            .border(.red)
                     }
                     .offset(x:-5)
                     .buttonStyle(.plain)
-
+                    
                 }
                 .background{
                     RoundedRectangle(cornerRadius: 10)
@@ -74,16 +75,16 @@ struct tab_serach: View {
                 .padding(.horizontal)
                 .padding(.vertical,15)
                 Spacer()
-
-
-//MARK: -検索結果
-
+                
+                
+                //MARK: -検索結果
+                
                 Form{
                     if textResult.isEmpty {
                         Text("入力がありません")
                     }else{
                         ForEach(svm.searchShop(searchText: textResult), id: \.id){ filteredshop in
-
+                            
                             let currentIndex = svm.fetchIndex(shop: filteredshop)
                             HStack(spacing:10){
                                 Image(systemName: filteredshop.genreIcon)
@@ -109,7 +110,7 @@ struct tab_serach: View {
                                 }
                                 .buttonStyle(.plain)
                             }
-//MARK: 原因は不明だがSheetを開く時に最初の一度だけ開いた直後閉じてしまうバグが稀に発生する(ShopElement)と同じコード
+                            //MARK: 原因は不明だがSheetを開く時に最初の一度だけ開いた直後閉じてしまうバグが稀に発生する(ShopElement)と同じコード
                             .sheet(isPresented: $svm.Shops[currentIndex].isSheet) {
                                 DetailElement(currentshop:$svm.Shops[currentIndex])
                             }
@@ -118,7 +119,10 @@ struct tab_serach: View {
                     
                     
                 }
+                .navigationTitle("検索")
+                .navigationBarTitleDisplayMode(.inline)
             }
+        }
 
 
     }
