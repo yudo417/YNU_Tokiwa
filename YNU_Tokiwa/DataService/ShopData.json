@@ -1,92 +1,286 @@
 [
+
+
+
     {
-        "id":"1",
-        "title":"軽音常盤ライブ2023",
+        "id":"12",
+        "title":"軽音楽部",
         "club":"軽音楽部",
         "genreIcon":"music.note",
-        "kind":"ライブ",
+        "kind":"パフォーマンス",
         "place":"101",
         "area":"都市科学部棟",
         "isSheet":false,
         "isBookmark":false,
         "supplement":"",
         "keywords":[
-            "軽音常盤ライブ2023","軽音楽部"
+            "軽音楽部","けいおん"
         ]
     },
     {
         "id":"2",
-        "title":"劇団三日月座　特別公演",
-        "club":"劇団三日月座",
+        "title":"アコースティックライブ",
+        "club":"アコースティックスタイル",
         "genreIcon":"music.note",
-        "kind":"演劇公演",
-        "place":"202",
+        "kind":"パフォーマンス",
+        "place":"103",
         "area":"都市科学部棟",
         "isSheet":false,
         "isBookmark":false,
         "supplement":"",
         "keywords":[
-            "劇団三日月座　特別公演","劇団三日月座"
+            "アコースティックライブ","アコースティックスタイル"
         ]
     },
+
+
     {
-        "id":"3",
-        "title":"青春を取り戻せサイテッカー",
-        "club":"SCITEX",
+        "id":"11",
+        "title":"みんなで早押しクイズin横国",
+        "club":"クイズ研究会",
         "genreIcon":"rectangle.inset.filled.and.person.filled",
-        "kind":"展示、物品販売",
+        "kind":"展示・販売・体験",
         "place":"103",
         "area":"経済・経営学部1号館",
         "isSheet":false,
         "isBookmark":false,
         "supplement":"",
         "keywords":[
-            "青春を取り戻せサイテッカー","SCITEX"
+            "みんなで早押しクイズin横国","クイズ研究会"
         ]
     },
+
+
+
+
+
+
     {
-        "id":"4",
-        "title":"横国げんしけん",
-        "club":"横国げんしけん",
-        "genreIcon":"music.note",
-        "kind":"声優を招待したトークショー",
-        "place":"201",
+        "id":"15",
+        "title":"サブカルチャー縁日",
+        "club":"SCITEX連合",
+        "genreIcon":"rectangle.inset.filled.and.person.filled",
+        "kind":"展示・販売・体験",
+        "place":"108",
         "area":"理工学部A棟",
         "isSheet":false,
         "isBookmark":false,
         "supplement":"",
         "keywords":[
-            "横国げんしけん","声優"
+            "サブカルチャー縁日","SCITEX連合"
         ]
     },
     {
-        "id":"5",
-        "title":"遊び場ルーガルー",
-        "club":"人狼ボドゲサークルルーガルー C",
+        "id":"1",
+        "title":"自主制作映画「YGF」",
+        "club":"ART×ENT",
         "genreIcon":"rectangle.inset.filled.and.person.filled",
-        "kind":"自作・既存ボードゲームの体験",
-        "place":"E7",
+        "kind":"展示•販売•体験",
+        "place":"301",
+        "area":"理工学部A棟",
+        "isSheet":false,
+        "isBookmark":false,
+        "supplement":"",
+        "keywords":[
+            "自主制作映画「YGF」","ART×ENT"
+        ]
+    },
+    {
+        "id":"6",
+        "title":"お笑いサークルわかばのライブ",
+        "club":"お笑いサークルわかば",
+        "genreIcon":"music.note",
+        "kind":"パフォーマンス",
+        "place":"307",
+        "area":"理工学部A棟",
+        "isSheet":false,
+        "isBookmark":false,
+        "supplement":"",
+        "keywords":[
+            "お笑いサークルわかばのライブ","お笑いサークルわかば"
+        ]
+    },
+
+
+
+
+
+
+
+
+
+    {
+        "id":"10",
+        "title":"came串",
+        "club":"Camel",
+        "genreIcon":"fork.knife",
+        "kind":"軽食",
+        "place":"B5",
+        "area":"B block",
+        "isSheet":false,
+        "isBookmark":false,
+        "supplement":"",
+        "keywords":[
+            "came串","Camel"
+        ]
+    },
+
+
+
+
+
+    {
+        "id":"13",
+        "title":"てにんちゅ部のやきそばんちゅ",
+        "club":"硬式テニス部",
+        "genreIcon":"fork.knife",
+        "kind":"鉄板・麺類",
+        "place":"D1",
+        "area":"D block",
+        "isSheet":false,
+        "isBookmark":false,
+        "supplement":"",
+        "keywords":[
+            "てにんちゅ部のやきそばんちゅ","硬式テニス部"
+        ]
+    },
+
+
+
+    {
+        "id":"8",
+        "title":"cafe&bar YUZURIHA",
+        "club":"cafe&bar YUZURIHA",
+        "genreIcon":"fork.knife",
+        "kind":"軽食",
+        "place":"E3",
         "area":"E block",
         "isSheet":false,
         "isBookmark":false,
         "supplement":"",
         "keywords":[
-            "遊び場ルーガルー","人狼ボドゲサークルルーガルー C"
+            "cafe&bar YUZURIHA"
         ]
     },
     {
-        "id":"6",
-        "title":"ふれあい牧場　よここく",
-        "club":"横国ヤギ部",
-        "genreIcon":"rectangle.inset.filled.and.person.filled",
-        "kind":"ヤギとのふれ合い・観察",
-        "place":"IX",
-        "area":"The others",
+        "id":"4",
+        "title":"Wind Float",
+        "club":"ウィンドサーフィン部",
+        "genreIcon":"fork.knife",
+        "kind":"ドリンク",
+        "place":"E5",
+        "area":"E block",
         "isSheet":false,
         "isBookmark":false,
         "supplement":"",
         "keywords":[
-            "ふれあい牧場　よここく","横国ヤギ部"
+            "Wind Float","ウィンドサーフィン部"
         ]
-    }
+    },
+    {
+        "id":"5",
+        "title":"étoice",
+        "club":"étoile",
+        "genreIcon":"fork.knife",
+        "kind":"スイーツ",
+        "place":"E8",
+        "area":"E block",
+        "isSheet":false,
+        "isBookmark":false,
+        "supplement":"",
+        "keywords":[
+            "étoice","étoile"
+        ]
+    },
+
+
+
+
+    {
+        "id":"3",
+        "title":"ホクポテ",
+        "club":"ESS",
+        "genreIcon":"fork.knife",
+        "kind":"軽食",
+        "place":"F11",
+        "area":"F block",
+        "isSheet":false,
+        "isBookmark":false,
+        "supplement":"",
+        "keywords":[
+            "ホクポテ","ESS","ess"
+        ]
+    },
+    {
+        "id":"9",
+        "title":"爽田のさわやか中華そば",
+        "club":"中華そば爽田",
+        "genreIcon":"fork.knife",
+        "kind":"鉄板・麺類",
+        "place":"F10",
+        "area":"F block",
+        "isSheet":false,
+        "isBookmark":false,
+        "supplement":"",
+        "keywords":[
+            "爽田のさわやか中華そば","中華そば爽田"
+        ]
+    },
+
+
+
+
+    {
+        "id":"14",
+        "title":"Coconutsのフライドチキン",
+        "club":"Coconuts",
+        "genreIcon":"fork.knife",
+        "kind":"軽食",
+        "place":"Y4",
+        "area":"Y block",
+        "isSheet":false,
+        "isBookmark":false,
+        "supplement":"",
+        "keywords":[
+            "Coconutsのフライドチキン","Coconuts"
+        ]
+    },
+    {
+        "id":"7",
+        "title":"ガバガバガパオ",
+        "club":"ガパオ卍研究會卍卍",
+        "genreIcon":"fork.knife",
+        "kind":"ご飯もの",
+        "place":"Y8",
+        "area":"Y block",
+        "isSheet":false,
+        "isBookmark":false,
+        "supplement":"",
+        "keywords":[
+            "ガバガバガパオ","ガパオ卍研究會卍卍"
+        ]
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 ]
