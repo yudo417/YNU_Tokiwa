@@ -25,7 +25,7 @@ struct BackSurface: View {
 
 
 //
-                Image("test")
+                Image("map_ynu")
                     .resizable()
                     .scaledToFit()
                     .offset(offset)
@@ -72,7 +72,7 @@ struct BackSurface: View {
 //
 //                    }
 //                }
-                .navigationTitle("学内簡易マップ")
+                .navigationTitle("簡易マップ")
                 .navigationBarTitleDisplayMode(.inline)
                 .toolbar{
                     ToolbarItem(placement: .topBarTrailing) {

@@ -15,7 +15,7 @@ class ShopViewModel:ObservableObject{
     [
         homeUIData(id: "1", area: "都市科学部棟", isClosure: false, titleColor: .purple),
         homeUIData(id: "2", area: "経済・経営学部1号館", isClosure: false, titleColor: .yellow),
-        homeUIData(id: "3", area: "教育学部7号館", isClosure: false, titleColor: .green),
+        homeUIData(id: "3", area: "教育学部6号館", isClosure: false, titleColor: .green),
         homeUIData(id: "4", area: "理工学部A棟", isClosure: false, titleColor: .mint),
         homeUIData(id: "5", area: "A block", isClosure: false, titleColor: .red),
         homeUIData(id: "6", area: "B block", isClosure: false, titleColor: .orange),

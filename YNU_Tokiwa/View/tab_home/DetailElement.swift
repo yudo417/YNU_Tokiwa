@@ -17,25 +17,25 @@ struct DetailElement: View {
                     VStack(){
                         Text(currentshop.title)
                             .font(.title)
-//                            .centered()
+                        //                            .centered()
                         HStack{
                             Spacer()
                             Text("by　\(currentshop.club)")
-                                        .font(.title3)
-                                        .centered()//センター寄せのつもり、レイアウト怖い、修正あるかも
+                                .font(.title3)
+                                .centered()//センター寄せのつもり、レイアウト怖い、修正あるかも
                             Spacer()
-                                    Button {
-                                        currentshop.isBookmark.toggle()
-                                        UserDefaults.standard.set(currentshop.isBookmark, forKey: "\(currentshop.id)")
-                                    } label: {
-                                        Image(systemName: currentshop.isBookmark ? "bookmark.fill" : "bookmark")
-                                            .font(.system(size:20))
-                                            .padding()
-//                                            .padding(.leading,100)
-//                                            .offset(x:10)
-                                    }
-                                    .foregroundStyle(.blue)
-                                    .buttonStyle(.plain)
+                            Button {
+                                currentshop.isBookmark.toggle()
+                                UserDefaults.standard.set(currentshop.isBookmark, forKey: "\(currentshop.id)")
+                            } label: {
+                                Image(systemName: currentshop.isBookmark ? "bookmark.fill" : "bookmark")
+                                    .font(.system(size:20))
+                                    .padding()
+                                //                                            .padding(.leading,100)
+                                //                                            .offset(x:10)
+                            }
+                            .foregroundStyle(.blue)
+                            .buttonStyle(.plain)
                         }
                     }
                 }
@@ -61,12 +61,38 @@ struct DetailElement: View {
                     Text("\(currentshop.area)  \(currentshop.place)")
                         .centered()
                 }
+                VStack{
+
+                    HStack{
+                        VStack{
+                            Text("備考")
+                                .fontWeight(.thin)
+
+
+                            Spacer()
+                        }
+                        Spacer()
+                    }
+
+                    HStack{
+                        if let sup = currentshop.supplement{
+                            Text(sup)
+//                                .multilineTextAlignment(.leading)
+                                .fixedSize(horizontal: false, vertical: true)
+
+                        }else {
+                            Text("")
+                        }
+                    }
+                }
+                .padding(.bottom,20)
+
             }
         }
     }
 }
 //
 //#Preview {
-//    
+//
 //    DetailElement()
 //}

@@ -7,14 +7,14 @@
         "title":"軽音楽部",
         "club":"軽音楽部",
         "genreIcon":"music.note",
-        "kind":"パフォーマンス",
+        "kind":"ライブ",
         "place":"101",
         "area":"都市科学部棟",
         "isSheet":false,
         "isBookmark":false,
         "supplement":"",
         "keywords":[
-            "軽音楽部","けいおん"
+            "軽音楽部","けいおん","ライブ"
         ]
     },
     {
@@ -22,14 +22,14 @@
         "title":"BaySound Jazz Orchestra",
         "club":"BaySound Jazz Orchestra B",
         "genreIcon":"music.note",
-        "kind":"パフォーマンス",
+        "kind":"ビッグバンド·ジャズの演奏",
         "place":"102",
         "area":"都市科学部棟",
         "isSheet":false,
         "isBookmark":false,
         "supplement":"",
         "keywords":[
-            "BaySound Jazz Orchestra","BaySound Jazz Orchestra B"
+            "BaySound Jazz Orchestra","BaySound Jazz Orchestra B","ジャズ","バンド"
         ]
     },
     {
@@ -37,7 +37,7 @@
         "title":"アコースティックライブ",
         "club":"アコースティックスタイル",
         "genreIcon":"music.note",
-        "kind":"パフォーマンス",
+        "kind":"アコースティックテイストの演奏",
         "place":"103",
         "area":"都市科学部棟",
         "isSheet":false,
@@ -48,26 +48,26 @@
         ]
     },
     {
-            "id":"86",
-            "title":"胎教 vol.13",
-            "club":"ロック研究会",
-            "genreIcon":"music.note",
-            "kind":"パフォーマンス",
-            "place":"105",
-            "area":"都市科学部棟",
-            "isSheet":false,
-            "isBookmark":false,
-            "supplement":"",
-            "keywords":[
-                "胎教 vol.13","ロック研究会"
-            ]
-        },
+        "id":"86",
+        "title":"胎教 vol.13",
+        "club":"ロック研究会",
+        "genreIcon":"music.note",
+        "kind":"バンドによるライブ",
+        "place":"105",
+        "area":"都市科学部棟",
+        "isSheet":false,
+        "isBookmark":false,
+        "supplement":"",
+        "keywords":[
+            "胎教 vol.13","ロック研究会","ライブ","バンド"
+        ]
+    },
     {
         "id":"50",
         "title":"Picture Artelier",
         "club":"美術部Eyebrows&写真部",
         "genreIcon":"rectangle.inset.filled.and.person.filled",
-        "kind":"展示・販売・体験",
+        "kind":"制作物の展示、販売、ワークショップ",
         "place":"107",
         "area":"都市科学部棟",
         "isSheet":false,
@@ -78,33 +78,33 @@
         ]
     },
     {
-            "id":"87",
-            "title":"Robert JohnsonVSjazzVSdarkrai",
-            "club":"Robert Johnson- Jazz研究会",
-            "genreIcon":"music.note",
-            "kind":"パフォーマンス",
-            "place":"201",
-            "area":"都市科学部棟",
-            "isSheet":false,
-            "isBookmark":false,
-            "supplement":"",
-            "keywords":[
-                "Robert JohnsonVSjazzVSdarkrai","Robert Johnson- Jazz研究会"
-            ]
-        },
+        "id":"87",
+        "title":"Robert JohnsonVSjazzVSdarkrai",
+        "club":"Robert Johnson- Jazz研究会",
+        "genreIcon":"music.note",
+        "kind":"楽器の演奏",
+        "place":"201",
+        "area":"都市科学部棟",
+        "isSheet":false,
+        "isBookmark":false,
+        "supplement":"",
+        "keywords":[
+            "Robert JohnsonVSjazzVSdarkrai","Robert Johnson- Jazz研究会","楽器","jazz","ジャズ"
+        ]
+    },
     {
         "id":"37",
         "title":"YNU Poker Tour",
         "club":"調査兵団の民",
         "genreIcon":"rectangle.inset.filled.and.person.filled",
-        "kind":"展示・販売・体験",
+        "kind":"ポーカー",
         "place":"202",
         "area":"都市科学部棟",
         "isSheet":false,
         "isBookmark":false,
         "supplement":"",
         "keywords":[
-            "YNU Poker Tour","調査兵団の民"
+            "YNU Poker Tour","調査兵団の民","ポーカー"
         ]
     },
     {
@@ -112,14 +112,14 @@
         "title":"ポケラバーズの会",
         "club":"横浜国立大学ポケモンサークル",
         "genreIcon":"rectangle.inset.filled.and.person.filled",
-        "kind":"展示・販売・体験",
+        "kind":"ポケモンのゲーム\nポケモンカードでの対戦など",
         "place":"203",
         "area":"都市科学部棟",
         "isSheet":false,
         "isBookmark":false,
         "supplement":"",
         "keywords":[
-
+            "ポケラバーズの会","横浜国立大学ポケモンサークル","カード","ゲーム"
         ]
     },
     {
@@ -127,7 +127,7 @@
         "title":"アンサンブルルーム",
         "club":"横浜国立大学管弦楽団B",
         "genreIcon":"music.note",
-        "kind":"パフォーマンス",
+        "kind":"アンサンブル(小編成)での演奏",
         "place":"204",
         "area":"都市科学部棟",
         "isSheet":false,
@@ -142,14 +142,14 @@
         "title":"Bon9raDJRoom",
         "club":"電子音楽研究会Bon9ra",
         "genreIcon":"music.note",
-        "kind":"パフォーマンス",
+        "kind":"DJ",
         "place":"205",
         "area":"都市科学部棟",
         "isSheet":false,
         "isBookmark":false,
         "supplement":"",
         "keywords":[
-            "Bon9raDJRoom","電子音楽研究会Bon9ra"
+            "Bon9raDJRoom","電子音楽研究会Bon9ra","DJ","dj"
         ]
     },
 
@@ -157,26 +157,41 @@
 
 
     {
-            "id":"78",
-            "title":"麻雀部模擬雀荘",
-            "club":"横浜国立大学麻雀部",
-            "genreIcon":"rectangle.inset.filled.and.person.filled",
-            "kind":"展示・販売・体験",
-            "place":"ロビー",
-            "area":"経済・経営学部1号館",
-            "isSheet":false,
-            "isBookmark":false,
-            "supplement":"",
-            "keywords":[
-                "麻雀部模擬雀荘","横浜国立大学麻雀部"
-            ]
-        },
+        "id":"92",
+        "title":"古着HOLIC",
+        "club":"古着HOLIC",
+        "genreIcon":"rectangle.inset.filled.and.person.filled",
+        "kind":"衣類の販売",
+        "place":"100",
+        "area":"経済・経営学部1号館",
+        "isSheet":false,
+        "isBookmark":false,
+        "supplement":"",
+        "keywords":[
+            "古着HOLIC","古着屋","衣類","衣服"
+        ]
+    },
+    {
+        "id":"78",
+        "title":"麻雀部模擬雀荘",
+        "club":"横浜国立大学麻雀部",
+        "genreIcon":"rectangle.inset.filled.and.person.filled",
+        "kind":"模擬麻荘の運営",
+        "place":"ロビー",
+        "area":"経済・経営学部1号館",
+        "isSheet":false,
+        "isBookmark":false,
+        "supplement":"",
+        "keywords":[
+            "麻雀部模擬雀荘","横浜国立大学麻雀部"
+        ]
+    },
     {
         "id":"64",
         "title":"前田佳織里のかおりんぴっく！",
         "club":"横国げんしけん",
         "genreIcon":"music.note",
-        "kind":"パフォーマンス",
+        "kind":"声優を招待したトークショー",
         "place":"101",
         "area":"経済・経営学部1号館",
         "isSheet":false,
@@ -191,7 +206,7 @@
         "title":"みんなで早押しクイズin横国",
         "club":"クイズ研究会",
         "genreIcon":"rectangle.inset.filled.and.person.filled",
-        "kind":"展示・販売・体験",
+        "kind":"早押しクイズを一般参加型で",
         "place":"103",
         "area":"経済・経営学部1号館",
         "isSheet":false,
@@ -206,7 +221,7 @@
         "title":"将棋サークル若葉会",
         "club":"将棋サークル若葉会",
         "genreIcon":"rectangle.inset.filled.and.person.filled",
-        "kind":"展示・販売・体験",
+        "kind":"将棋を通じた交流",
         "place":"204",
         "area":"経済・経営学部1号館",
         "isSheet":false,
@@ -218,17 +233,17 @@
     },
     {
         "id":"22",
-        "title":"It's 書 time!",
+        "title":"It's 書time!",
         "club":"書道サークルSepia",
         "genreIcon":"rectangle.inset.filled.and.person.filled",
-        "kind":"展示・販売・体験",
+        "kind":"初動作品の展示、物販、体験",
         "place":"205",
         "area":"経済・経営学部1号館",
         "isSheet":false,
         "isBookmark":false,
         "supplement":"",
         "keywords":[
-            "It's 書 time!","書道サークルSepia"
+            "It's 書time!","書道サークルSepia","sepia"
         ]
     },
     {
@@ -236,7 +251,7 @@
         "title":"Y.N.U.オーエンは彼女なのか？",
         "club":"東方深晴霞",
         "genreIcon":"rectangle.inset.filled.and.person.filled",
-        "kind":"展示・販売・体験",
+        "kind":"ゲーム試遊、展示、会誌頒布",
         "place":"206",
         "area":"経済・経営学部1号館",
         "isSheet":false,
@@ -251,7 +266,7 @@
         "title":"横浜国立大学国際問題研究会",
         "club":"横浜国立大学国際問題研究会",
         "genreIcon":"rectangle.inset.filled.and.person.filled",
-        "kind":"展示・販売・体験",
+        "kind":"研究発表",
         "place":"207",
         "area":"経済・経営学部1号館",
         "isSheet":false,
@@ -268,16 +283,16 @@
     {
         "id":"30",
         "title":"Stairways常盤祭アカペラライブ",
-        "club":"StairwaysB",
+        "club":"Stairways B",
         "genreIcon":"music.note",
-        "kind":"パフォーマンス",
+        "kind":"アカペラライブ",
         "place":"101",
-        "area":"教育学部7号館",
+        "area":"教育学部6号館",
         "isSheet":false,
         "isBookmark":false,
         "supplement":"",
         "keywords":[
-            "Stairways常盤祭アカペラライブ","StairwaysB"
+            "Stairways常盤祭アカペラライブ","Stairways B","stairways"
         ]
     },
     {
@@ -285,14 +300,14 @@
         "title":"謎解きRPG",
         "club":"人狼ボドゲサークルルーガルーA",
         "genreIcon":"rectangle.inset.filled.and.person.filled",
-        "kind":"展示・販売・体験",
+        "kind":"自作謎解き体験企画",
         "place":"102",
-        "area":"教育学部7号館",
+        "area":"教育学部6号館",
         "isSheet":false,
         "isBookmark":false,
         "supplement":"",
         "keywords":[
-            "謎解きRPG","人狼ボドゲサークルルーガルーA"
+            "謎解きRPG","人狼ボドゲサークルルーガルーA","ボードゲーム","rpg"
         ]
     },
 
@@ -304,14 +319,14 @@
         "title":"てっけん！",
         "club":"鉄道旅行研究会",
         "genreIcon":"rectangle.inset.filled.and.person.filled",
-        "kind":"展示・販売・体験",
+        "kind":"ジオラマ·プラレールの展示、会誌の頒布",
         "place":"101",
         "area":"理工学部A棟",
         "isSheet":false,
         "isBookmark":false,
         "supplement":"",
         "keywords":[
-            "てっけん！","鉄道旅行研究会"
+            "てっけん！","鉄道旅行研究会","プラレール","ジオラマ","プラレール"
         ]
     },
     {
@@ -319,7 +334,7 @@
         "title":"わくわく⭐︎工房",
         "club":"美術科企画",
         "genreIcon":"rectangle.inset.filled.and.person.filled",
-        "kind":"展示・販売・体験",
+        "kind":"ワークショップ、物販、展示",
         "place":"104",
         "area":"理工学部A棟",
         "isSheet":false,
@@ -334,29 +349,29 @@
         "title":"サブカルチャー縁日",
         "club":"SCITEX連合",
         "genreIcon":"rectangle.inset.filled.and.person.filled",
-        "kind":"展示・販売・体験",
+        "kind":"制作物の頒布販売、ゲーム体験、展示",
         "place":"108",
         "area":"理工学部A棟",
         "isSheet":false,
         "isBookmark":false,
         "supplement":"",
         "keywords":[
-            "サブカルチャー縁日","SCITEX連合"
+            "サブカルチャー縁日","SCITEX連合","scitex","サイテックス"
         ]
     },
     {
         "id":"43",
-        "title":"謎解きサークルWHYNU",
-        "club":"謎解きサークルWHYNU",
+        "title":"謎解きサークル WHYNU",
+        "club":"謎解きサークル WHYNU",
         "genreIcon":"rectangle.inset.filled.and.person.filled",
-        "kind":"展示・販売・体験",
+        "kind":"謎解きゲームの体験",
         "place":"109",
         "area":"理工学部A棟",
         "isSheet":false,
         "isBookmark":false,
         "supplement":"",
         "keywords":[
-            "謎解きサークルWHYNU","謎解きサークルWHYNU"
+            "謎解きサークル WHYNU","謎解きサークルWHYNU","謎解きゲーム"
         ]
     },
     {
@@ -364,74 +379,74 @@
         "title":"謎解きゲーム",
         "club":"人狼ボドゲサークルルーガルーB",
         "genreIcon":"rectangle.inset.filled.and.person.filled",
-        "kind":"展示・販売・体験",
+        "kind":"自作謎解きゲームの公演",
         "place":"110",
         "area":"理工学部A棟",
         "isSheet":false,
         "isBookmark":false,
         "supplement":"",
         "keywords":[
-            "謎解きゲーム","人狼ボドゲサークルルーガルーB"
+            "謎解きゲーム","人狼ボドゲサークルルーガルーB","ボードゲーム"
         ]
     },
     {
         "id":"62",
-        "title":"オータムフェス常盤",
+        "title":"オータムフェス·トキワ",
         "club":"横国音楽研究会",
         "genreIcon":"rectangle.inset.filled.and.person.filled",
-        "kind":"展示・販売・体験",
+        "kind":"自作音楽CDの配布",
         "place":"204",
         "area":"理工学部A棟",
         "isSheet":false,
         "isBookmark":false,
         "supplement":"",
         "keywords":[
-            "オータムフェス常盤","横国音楽研究会"
+            "オータムフェス","横国音楽研究会","CD","自作音楽","トキワ"
         ]
     },
     {
-            "id":"85",
-            "title":"Lumos Lightning Talk!",
-            "club":"Lumos",
-            "genreIcon":"rectangle.inset.filled.and.person.filled",
-            "kind":"展示・販売・体験",
-            "place":"208",
-            "area":"理工学部A棟",
-            "isSheet":false,
-            "isBookmark":false,
-            "supplement":"",
-            "keywords":[
-                "Lumos Lightning Talk!","Lumos","プログラミング"
-            ]
-        },
+        "id":"85",
+        "title":"Lumos Lightning Talk!",
+        "club":"Lumos",
+        "genreIcon":"rectangle.inset.filled.and.person.filled",
+        "kind":"成果発表会(LT会)\n5分間のライトトーク",
+        "place":"208",
+        "area":"理工学部A棟",
+        "isSheet":false,
+        "isBookmark":false,
+        "supplement":"",
+        "keywords":[
+            "Lumos Lightning Talk!","Lumos","プログラミング","lumos"
+        ]
+    },
     {
         "id":"1",
         "title":"自主制作映画「YGF」",
         "club":"ART×ENT",
         "genreIcon":"rectangle.inset.filled.and.person.filled",
-        "kind":"展示•販売•体験",
+        "kind":"製作物の展示",
         "place":"301",
         "area":"理工学部A棟",
         "isSheet":false,
         "isBookmark":false,
         "supplement":"",
         "keywords":[
-            "自主制作映画「YGF」","ART×ENT"
+            "自主制作映画「YGF」","ART×ENT","art"
         ]
     },
     {
         "id":"45",
-        "title":"猫サークル展",
+        "title":"横国ネコサークル展",
         "club":"猫サークル",
         "genreIcon":"rectangle.inset.filled.and.person.filled",
-        "kind":"展示・販売・体験",
+        "kind":"物品販売、展示",
         "place":"306",
         "area":"理工学部A棟",
         "isSheet":false,
         "isBookmark":false,
         "supplement":"",
         "keywords":[
-            "猫サークル展","猫サークル"
+            "横国ネコサークル展","猫サークル"
         ]
     },
     {
@@ -439,14 +454,14 @@
         "title":"お笑いサークルわかばのライブ",
         "club":"お笑いサークルわかば",
         "genreIcon":"music.note",
-        "kind":"パフォーマンス",
+        "kind":"お笑いライブ",
         "place":"307",
         "area":"理工学部A棟",
         "isSheet":false,
         "isBookmark":false,
         "supplement":"",
         "keywords":[
-            "お笑いサークルわかばのライブ","お笑いサークルわかば"
+            "お笑いサークルわかばのライブ","お笑いサークルわかば","お笑いライブ"
         ]
     },
 
@@ -461,7 +476,7 @@
         "title":"焼き鳥武蔵",
         "club":"体育会剣道部",
         "genreIcon":"fork.knife",
-        "kind":"軽食",
+        "kind":"焼き鳥",
         "place":"A1",
         "area":"A block",
         "isSheet":false,
@@ -476,14 +491,14 @@
         "title":"秋はエアロで！イ～じゃん",
         "club":"横浜AEROSPACE",
         "genreIcon":"fork.knife",
-        "kind":"軽食",
+        "kind":"ポテト·ナゲット",
         "place":"A2",
         "area":"A block",
         "isSheet":false,
         "isBookmark":false,
         "supplement":"",
         "keywords":[
-            "秋はエアロで！イ～じゃん","横浜AEROSPACE"
+            "秋はエアロで！イ～じゃん","横浜AEROSPACE","ポテト","ナゲット"
         ]
     },
     {
@@ -491,29 +506,44 @@
         "title":"ゲーミング綿あめ",
         "club":"浜games",
         "genreIcon":"fork.knife",
-        "kind":"スイーツ",
+        "kind":"虹色の綿あめ",
         "place":"A4",
         "area":"A block",
         "isSheet":false,
         "isBookmark":false,
         "supplement":"",
         "keywords":[
-            "ゲーミング綿あめ","浜games"
+            "ゲーミング綿あめ","浜games","わたあめ"
+        ]
+    },
+    {
+        "id":"96",
+        "title":"B2U",
+        "club":"B2U",
+        "genreIcon":"fork.knife",
+        "kind":"たこ焼き",
+        "place":"A5",
+        "area":"A block",
+        "isSheet":false,
+        "isBookmark":false,
+        "supplement":"",
+        "keywords":[
+            "B2U","たこ焼き"
         ]
     },
     {
         "id":"59",
-        "title":"みんけん(民謡研究会合唱団)",
+        "title":"みんけん焼き",
         "club":"みんけん(民謡研究会合唱団)",
         "genreIcon":"fork.knife",
-        "kind":"鉄板・麺類",
+        "kind":"お好み焼き",
         "place":"A7",
         "area":"A block",
         "isSheet":false,
         "isBookmark":false,
         "supplement":"",
         "keywords":[
-            "みんけん(民謡研究会合唱団)","みんけん焼"
+            "みんけん","民謡研究会合唱団","みんけん焼き","お好み焼き"
         ]
     },
 
@@ -523,22 +553,22 @@
         "title":"ジョルノのコロッケ・メンチ",
         "club":"giorno",
         "genreIcon":"fork.knife",
-        "kind":"軽食",
+        "kind":"コロッケ·メンチカツ",
         "place":"B1",
         "area":"B block",
         "isSheet":false,
         "isBookmark":false,
         "supplement":"",
         "keywords":[
-            "ジョルノのコロッケ・メンチ","giorno"
+            "ジョルノのコロッケ・メンチ","giorno","メンチカツ"
         ]
     },
     {
         "id":"55",
         "title":"ぽてぽてぽてと",
-        "club":"potato chips B",
+        "club":"Potato Chips B",
         "genreIcon":"fork.knife",
-        "kind":"軽食",
+        "kind":"シャカシャカポテト",
         "place":"B2",
         "area":"B block",
         "isSheet":false,
@@ -553,7 +583,7 @@
         "title":"カラサーカステラ",
         "club":"横国カラオケサークル",
         "genreIcon":"fork.knife",
-        "kind":"スイーツ",
+        "kind":"ベビーカステラ",
         "place":"B3",
         "area":"B block",
         "isSheet":false,
@@ -568,7 +598,7 @@
         "title":"ハッピージャムジャムカレー",
         "club":"JAM",
         "genreIcon":"fork.knife",
-        "kind":"ご飯もの",
+        "kind":"カレー",
         "place":"B4",
         "area":"B block",
         "isSheet":false,
@@ -583,14 +613,14 @@
         "title":"came串",
         "club":"Camel",
         "genreIcon":"fork.knife",
-        "kind":"軽食",
+        "kind":"牛串·タン串",
         "place":"B5",
         "area":"B block",
         "isSheet":false,
         "isBookmark":false,
         "supplement":"",
         "keywords":[
-            "came串","Camel"
+            "came串","camel","牛串","タン串"
         ]
     },
     {
@@ -598,7 +628,7 @@
         "title":"もぎこくろっふる",
         "club":"日本模擬国連日吉研究会",
         "genreIcon":"fork.knife",
-        "kind":"スイーツ",
+        "kind":"くろっふる",
         "place":"B6",
         "area":"B block",
         "isSheet":false,
@@ -613,14 +643,14 @@
         "title":"卓庵",
         "club":"体育会卓球部",
         "genreIcon":"fork.knife",
-        "kind":"鉄板・麺類",
+        "kind":"焼きそば·ドリンク",
         "place":"B7",
         "area":"B block",
         "isSheet":false,
         "isBookmark":false,
         "supplement":"",
         "keywords":[
-            "卓庵","体育会卓球部"
+            "卓庵","体育会卓球部","やきそば"
         ]
     },
 
@@ -628,70 +658,70 @@
 
     {
         "id":"57",
-        "title":"M’s burger",
-        "club":"Mareprofondo",
+        "title":"M’s Burger",
+        "club":"Mare profondo",
         "genreIcon":"fork.knife",
-        "kind":"軽食",
+        "kind":"ハンバーガー·ドリンク",
         "place":"C1",
         "area":"C block",
         "isSheet":false,
         "isBookmark":false,
         "supplement":"",
         "keywords":[
-            "M’s burger","Mareprofondo"
+            "M’s burger","Mareprofondo","ハンバーガー","mare"
         ]
     },
     {
-            "id":"80",
-            "title":"LuckyDipのたいやき屋さん",
-            "club":"LuckyDip",
-            "genreIcon":"fork.knife",
-            "kind":"スイーツ",
-            "place":"C2",
-            "area":"C block",
-            "isSheet":false,
-            "isBookmark":false,
-            "supplement":"",
-            "keywords":[
-                "LuckyDipのたいやき屋さん","LuckyDip","luckydip"
-            ]
-        },
+        "id":"80",
+        "title":"LuckyDipのたいやき屋さん",
+        "club":"LuckyDip",
+        "genreIcon":"fork.knife",
+        "kind":"たい焼き",
+        "place":"C2",
+        "area":"C block",
+        "isSheet":false,
+        "isBookmark":false,
+        "supplement":"",
+        "keywords":[
+            "LuckyDipのたいやき屋さん","LuckyDip","luckydip","たい焼き"
+        ]
+    },
     {
         "id":"75",
         "title":"国大ゲレンデ食堂",
         "club":"横浜国立大学体育会スキー部",
         "genreIcon":"fork.knife",
-        "kind":"ドリンク",
+        "kind":"ホットココア",
         "place":"C3",
         "area":"C block",
         "isSheet":false,
         "isBookmark":false,
         "supplement":"",
         "keywords":[
-            "国大ゲレンデ食堂","横浜国立大学体育会スキー部"
+            "国大ゲレンデ食堂","横浜国立大学体育会スキー部","ココア"
         ]
     },
     {
-            "id":"90",
-            "title":"Fantasy Oasis",
-            "club":"YDK 横国ディズニーサークル A",
-            "genreIcon":"fork.knife",
-            "kind":"軽食",
-            "place":"C4",
-            "area":"C block",
-            "isSheet":false,
-            "isBookmark":false,
-            "supplement":"",
-            "keywords":[
-                "Fantasy Oasis","YDK 横国ディズニーサークル A"
-            ]
-        },
+        "id":"90",
+        "title":"Fantasy Oasis",
+        "club":"YDK 横国ディズニーサークル A",
+        "genreIcon":"fork.knife",
+        "kind":"ポップコーン·ドリンク",
+        "place":"C4",
+        "area":"C block",
+        "isSheet":false,
+        "isBookmark":false,
+        "supplement":"",
+        "keywords":[
+            "Fantasy Oasis","YDK 横国ディズニーサークル A","ポップコーン"
+        ]
+    },
     {
         "id":"76",
         "title":"ハンド部のうどん屋さん",
         "club":"横浜国立大学ハンドボール部",
         "genreIcon":"fork.knife",
-        "kind":"鉄板・麺",
+        "kind":"うどん",
         "place":"C5",
         "area":"C block",
         "isSheet":false,
@@ -709,14 +739,14 @@
         "title":"てにんちゅ部のやきそばんちゅ",
         "club":"硬式テニス部",
         "genreIcon":"fork.knife",
-        "kind":"鉄板・麺類",
+        "kind":"焼きそば",
         "place":"D1",
         "area":"D block",
         "isSheet":false,
         "isBookmark":false,
         "supplement":"",
         "keywords":[
-            "てにんちゅ部のやきそばんちゅ","硬式テニス部"
+            "てにんちゅ部のやきそばんちゅ","硬式テニス部","焼きそば"
         ]
     },
     {
@@ -724,14 +754,14 @@
         "title":"vsサッカー部PK対決！",
         "club":"サッカー部",
         "genreIcon":"fork.knife",
-        "kind":"軽食",
+        "kind":"PK対決、フランクフルト·ドリンクの販売",
         "place":"D2",
         "area":"D block",
         "isSheet":false,
         "isBookmark":false,
         "supplement":"",
         "keywords":[
-            "vsサッカー部PK対決！","サッカー部"
+            "vsサッカー部PK対決！","サッカー部","フランクフルト"
         ]
     },
     {
@@ -739,14 +769,14 @@
         "title":"遊び場ルーガルー",
         "club":"人狼ボドゲサークルルーガルーC",
         "genreIcon":"rectangle.inset.filled.and.person.filled",
-        "kind":"展示・販売・体験",
+        "kind":"自作ボードゲームの体験",
         "place":"D3",
         "area":"D block",
         "isSheet":false,
         "isBookmark":false,
         "supplement":"",
         "keywords":[
-            "遊び場ルーガルー","人狼ボドゲサークルルーガルーC"
+            "遊び場ルーガルー","人狼ボドゲサークルルーガルーC","ボードゲーム"
         ]
     },
     {
@@ -754,52 +784,52 @@
         "title":"人畜無蓋",
         "club":"人畜無蓋",
         "genreIcon":"fork.knife",
-        "kind":"軽食",
+        "kind":"スープバー",
         "place":"D4",
         "area":"D block",
         "isSheet":false,
         "isBookmark":false,
         "supplement":"",
         "keywords":[
-            "人畜無蓋"
+            "人畜無蓋","スープバー"
         ]
     },
     {
         "id":"54",
         "title":"ぐるぐるポテッと",
-        "club":"potato chips A",
+        "club":"Potato Chips A",
         "genreIcon":"fork.knife",
-        "kind":"軽食",
+        "kind":"トルネードポテト",
         "place":"D5",
         "area":"D block",
         "isSheet":false,
         "isBookmark":false,
         "supplement":"",
         "keywords":[
-            "ぐるぐるポテッと","potato chips A"
+            "ぐるぐるポテッと","potato chips A","トルネードポテト"
         ]
     },
     {
-            "id":"92",
-            "title":"俺たちのましまし亭",
-            "club":"和田町ジロリアン",
-            "genreIcon":"fork.knife",
-            "kind":"鉄板・麺類",
-            "place":"D6",
-            "area":"D block",
-            "isSheet":false,
-            "isBookmark":false,
-            "supplement":"",
-            "keywords":[
-                "俺たちのましまし亭","和田町ジロリアン"
-            ]
-        },
+        "id":"92",
+        "title":"俺たちのましまし亭",
+        "club":"和田町ジロリアン",
+        "genreIcon":"fork.knife",
+        "kind":"二郎系ラーメン",
+        "place":"D6",
+        "area":"D block",
+        "isSheet":false,
+        "isBookmark":false,
+        "supplement":"",
+        "keywords":[
+            "俺たちのましまし亭","和田町ジロリアン","二郎系ラーメン"
+        ]
+    },
     {
         "id":"41",
-        "title":"都市は揺れている",
+        "title":"「都市は揺れている」",
         "club":"都市科学部都市社会共生学科有志",
         "genreIcon":"fork.knife",
-        "kind":"ドリンク",
+        "kind":"ゼリー入り飲料",
         "place":"D7",
         "area":"D block",
         "isSheet":false,
@@ -814,7 +844,7 @@
         "title":"ダムカレー2024",
         "club":"都市基盤学科有志",
         "genreIcon":"fork.knife",
-        "kind":"ご飯もの",
+        "kind":"ダムの形をしたカレー",
         "place":"D8",
         "area":"D block",
         "isSheet":false,
@@ -832,7 +862,7 @@
         "title":"ポップコーン専門店よこ☆てん２",
         "club":"よこ☆てん",
         "genreIcon":"fork.knife",
-        "kind":"軽食",
+        "kind":"ポップコーン·アメリカンドッグ",
         "place":"E1",
         "area":"E block",
         "isSheet":false,
@@ -847,7 +877,7 @@
         "title":"バド部の根性たこ焼き",
         "club":"体育会バドミントン部",
         "genreIcon":"fork.knife",
-        "kind":"軽食",
+        "kind":"たこ焼き",
         "place":"E2",
         "area":"E block",
         "isSheet":false,
@@ -862,14 +892,29 @@
         "title":"cafe&bar YUZURIHA",
         "club":"cafe&bar YUZURIHA",
         "genreIcon":"fork.knife",
-        "kind":"軽食",
+        "kind":"ピザ·ドリンク",
         "place":"E3",
         "area":"E block",
         "isSheet":false,
         "isBookmark":false,
         "supplement":"",
         "keywords":[
-            "cafe&bar YUZURIHA"
+            "cafe&bar YUZURIHA","ユズリハ","yuzuriha"
+        ]
+    },
+    {
+        "id":"97",
+        "title":"横国焼きそば",
+        "club":"山梨研究室",
+        "genreIcon":"fork.knife",
+        "kind":"ピザ·ドリンク",
+        "place":"E3",
+        "area":"E block",
+        "isSheet":false,
+        "isBookmark":false,
+        "supplement":"",
+        "keywords":[
+            "山梨研究室","横国焼きそば","やきそば"
         ]
     },
     {
@@ -877,14 +922,14 @@
         "title":"Wind Float",
         "club":"ウィンドサーフィン部",
         "genreIcon":"fork.knife",
-        "kind":"ドリンク",
+        "kind":"ラムネカルパス\nラムネのパインジュース割\nトッピングのアイス",
         "place":"E5",
         "area":"E block",
         "isSheet":false,
         "isBookmark":false,
         "supplement":"",
         "keywords":[
-            "Wind Float","ウィンドサーフィン部"
+            "Wind Float","ウィンドサーフィン部","wind float","ラムネ"
         ]
     },
     {
@@ -892,59 +937,59 @@
         "title":"ジビエ料理研究会",
         "club":"ジビエ料理研究会",
         "genreIcon":"fork.knife",
-        "kind":"軽食",
+        "kind":"加工調理済みのジビエ·大福",
         "place":"E6",
         "area":"E block",
         "isSheet":false,
         "isBookmark":false,
         "supplement":"",
         "keywords":[
-            "ジビエ料理研究会",
+            "ジビエ料理研究会","鹿肉"
         ]
     },
     {
-            "id":"82",
-            "title":"らぽたっぴ",
-            "club":"La Paume",
-            "genreIcon":"fork.knife",
-            "kind":"ドリンク",
-            "place":"E7",
-            "area":"E block",
-            "isSheet":false,
-            "isBookmark":false,
-            "supplement":"",
-            "keywords":[
-                "らぽたっぴ","La Paume"
-            ]
-        },
+        "id":"82",
+        "title":"らぽたっぴ",
+        "club":"LaPaume",
+        "genreIcon":"fork.knife",
+        "kind":"タピオカドリンク·わらび餅ドリンク",
+        "place":"E7",
+        "area":"E block",
+        "isSheet":false,
+        "isBookmark":false,
+        "supplement":"",
+        "keywords":[
+            "らぽたっぴ","LaPaume","lapaume","la paume"
+        ]
+    },
     {
         "id":"5",
         "title":"étoice",
         "club":"étoile",
         "genreIcon":"fork.knife",
-        "kind":"スイーツ",
+        "kind":"揚げアイス·シューアイス",
         "place":"E8",
         "area":"E block",
         "isSheet":false,
         "isBookmark":false,
         "supplement":"",
         "keywords":[
-            "étoice","étoile"
+            "étoice","étoile","揚げアイス"
         ]
     },
     {
         "id":"46",
-        "title":"Snack Door",
+        "title":"Snack door",
         "club":"BACK DOOR",
         "genreIcon":"fork.knife",
-        "kind":"スイーツ",
+        "kind":"クレープ·フランクフルト",
         "place":"E9",
         "area":"E block",
         "isSheet":false,
         "isBookmark":false,
         "supplement":"",
         "keywords":[
-            "Snack Door","BACK DOOR"
+            "Snack door","BACK DOOR","クレープ","フランクフルト"
         ]
     },
     {
@@ -952,56 +997,56 @@
         "title":"焼き鳥　とりっぴい",
         "club":"Mariners",
         "genreIcon":"fork.knife",
-        "kind":"軽食",
+        "kind":"焼き鳥·ドリンク",
         "place":"E10",
         "area":"E block",
         "isSheet":false,
         "isBookmark":false,
         "supplement":"",
         "keywords":[
-            "焼き鳥　とりっぴい","Mariners"
+            "焼き鳥　とりっぴい","Mariners","mariners","マリナーズ"
         ]
     },
     {
-            "id":"79",
-            "title":"China InCha China 飲茶",
-            "club":"横浜地区中国人留学生学友会",
-            "genreIcon":"fork.knife",
-            "kind":"ドリンク",
-            "place":"E11",
-            "area":"E block",
-            "isSheet":false,
-            "isBookmark":false,
-            "supplement":"",
-            "keywords":[
-                "China InCha China 飲茶","横浜地区中国人留学生学友会"
-            ]
-        },
+        "id":"79",
+        "title":"China InCha China 飲茶",
+        "club":"横浜地区中国人留学生学友会",
+        "genreIcon":"fork.knife",
+        "kind":"ミルクティー",
+        "place":"E11",
+        "area":"E block",
+        "isSheet":false,
+        "isBookmark":false,
+        "supplement":"",
+        "keywords":[
+            "China InCha China 飲茶","横浜地区中国人留学生学友会","ミルクティー"
+        ]
+    },
 
 
 
 
     {
-            "id":"91",
-            "title":"Dreaming fLight",
-            "club":"YDK横国ディズニーサークル B",
-            "genreIcon":"rectangle.inset.filled.and.person.filled",
-            "kind":"展示・販売・体験",
-            "place":"F1",
-            "area":"F block",
-            "isSheet":false,
-            "isBookmark":false,
-            "supplement":"",
-            "keywords":[
-                "Dreaming fLight","YDK横国ディズニーサークル B"
-            ]
-        },
+        "id":"91",
+        "title":"Dreaming fLight",
+        "club":"YDK横国ディズニーサークル B",
+        "genreIcon":"rectangle.inset.filled.and.person.filled",
+        "kind":"フライト\nシミュレーション型ライドアトラクション",
+        "place":"F1",
+        "area":"F block",
+        "isSheet":false,
+        "isBookmark":false,
+        "supplement":"",
+        "keywords":[
+            "Dreaming fLight","YDK横国ディズニーサークル B"
+        ]
+    },
     {
         "id":"58",
         "title":"漫画・イラスト研究部",
         "club":"漫画・イラスト研究部",
         "genreIcon":"rectangle.inset.filled.and.person.filled",
-        "kind":"展示・販売・体験",
+        "kind":"漫画·イラスト本の販売、展示",
         "place":"F2",
         "area":"F block",
         "isSheet":false,
@@ -1016,14 +1061,14 @@
         "title":"伝説のチャリから",
         "club":"チャーリーブラウン",
         "genreIcon":"fork.knife",
-        "kind":"軽食",
+        "kind":"唐揚げ",
         "place":"F3",
         "area":"F block",
         "isSheet":false,
         "isBookmark":false,
         "supplement":"",
         "keywords":[
-            "伝説のチャリから","チャーリーブラウン"
+            "伝説のチャリから","チャーリーブラウン","唐揚げ"
         ]
     },
     {
@@ -1031,44 +1076,44 @@
         "title":"おけら屋",
         "club":"横浜国立大学管弦楽団A",
         "genreIcon":"fork.knife",
-        "kind":"鉄板・麺類",
+        "kind":"焼きそば·チョコバナナ",
         "place":"F4",
         "area":"F block",
         "isSheet":false,
         "isBookmark":false,
         "supplement":"",
         "keywords":[
-            "おけら屋","横浜国立大学管弦楽団A"
+            "おけら屋","横浜国立大学管弦楽団A","焼きそば","やきそば"
         ]
     },
     {
-            "id":"89",
-            "title":"クリームソーダ工房",
-            "club":"YNUCC",
-            "genreIcon":"fork.knife",
-            "kind":"ドリンク",
-            "place":"F5",
-            "area":"F block",
-            "isSheet":false,
-            "isBookmark":false,
-            "supplement":"",
-            "keywords":[
-                "クリームソーダ工房","YNUCC","ynucc"
-            ]
-        },
+        "id":"89",
+        "title":"クリームソーダ工房",
+        "club":"YNUCC",
+        "genreIcon":"fork.knife",
+        "kind":"クリームソーダ·コーヒーフロート",
+        "place":"F5",
+        "area":"F block",
+        "isSheet":false,
+        "isBookmark":false,
+        "supplement":"",
+        "keywords":[
+            "クリームソーダ工房","YNUCC","ynucc"
+        ]
+    },
     {
         "id":"61",
         "title":"山岡ゼミのTORU⭐︎スイーツ",
         "club":"山岡ゼミ",
         "genreIcon":"fork.knife",
-        "kind":"スイーツ",
+        "kind":"チュロス·ワッフル",
         "place":"F6",
         "area":"F block",
         "isSheet":false,
         "isBookmark":false,
         "supplement":"",
         "keywords":[
-            "山岡ゼミのTORU⭐︎スイーツ","山岡ゼミ"
+            "山岡ゼミのTORU⭐︎スイーツ","山岡ゼミ","チュロス","ワッフル"
         ]
     },
     {
@@ -1076,7 +1121,7 @@
         "title":"ポテナゲ",
         "club":"peach sherbet",
         "genreIcon":"fork.knife",
-        "kind":"軽食",
+        "kind":"ポテト·ナゲット",
         "place":"F7",
         "area":"F block",
         "isSheet":false,
@@ -1091,14 +1136,14 @@
         "title":"YNUSB屋台",
         "club":"横浜国立大学吹奏楽団 B",
         "genreIcon":"fork.knife",
-        "kind":"軽食",
+        "kind":"ハンバーガー",
         "place":"F8",
         "area":"F block",
         "isSheet":false,
         "isBookmark":false,
         "supplement":"",
         "keywords":[
-            "YNUSB屋台","横浜国立大学吹奏楽団 B"
+            "YNUSB屋台","横浜国立大学吹奏楽団 B","ハンバーガー","ynusb"
         ]
     },
     {
@@ -1106,14 +1151,14 @@
         "title":"フランクフルト屋",
         "club":"TIMEOUT",
         "genreIcon":"fork.knife",
-        "kind":"軽食",
+        "kind":"フランクフルト",
         "place":"F9",
         "area":"F block",
         "isSheet":false,
         "isBookmark":false,
         "supplement":"",
         "keywords":[
-            "フランクフルト屋","TIMEOUT"
+            "フランクフルト屋","TIMEOUT","timeout"
         ]
     },
     {
@@ -1121,14 +1166,14 @@
         "title":"爽田のさわやか中華そば",
         "club":"中華そば爽田",
         "genreIcon":"fork.knife",
-        "kind":"鉄板・麺類",
+        "kind":"中華そば",
         "place":"F10",
         "area":"F block",
         "isSheet":false,
         "isBookmark":false,
         "supplement":"",
         "keywords":[
-            "爽田のさわやか中華そば","中華そば爽田"
+            "爽田のさわやか中華そば","中華そば爽田","ラーメン"
         ]
     },
     {
@@ -1136,14 +1181,14 @@
         "title":"ホクポテ",
         "club":"ESS",
         "genreIcon":"fork.knife",
-        "kind":"軽食",
+        "kind":"いももち",
         "place":"F11",
         "area":"F block",
         "isSheet":false,
         "isBookmark":false,
         "supplement":"",
         "keywords":[
-            "ホクポテ","ESS","ess"
+            "ホクポテ","ESS","ess","いももち","芋もち"
         ]
     },
     {
@@ -1151,14 +1196,14 @@
         "title":"まんじゃ",
         "club":"少林寺拳法部",
         "genreIcon":"fork.knife",
-        "kind":"鉄板・麺類",
+        "kind":"お好み焼き",
         "place":"F12",
         "area":"F block",
         "isSheet":false,
         "isBookmark":false,
         "supplement":"",
         "keywords":[
-            "まんじゃ","少林寺拳法部"
+            "まんじゃ","少林寺拳法部","お好み焼き"
         ]
     },
 
@@ -1167,26 +1212,26 @@
 
 
     {
-            "id":"81",
-            "title":"うさぎや",
-            "club":"Lavish rabbits",
-            "genreIcon":"fork.knife",
-            "kind":"スイーツ",
-            "place":"Y1",
-            "area":"Y block",
-            "isSheet":false,
-            "isBookmark":false,
-            "supplement":"",
-            "keywords":[
-                "うさぎや","Lavish rabbits"
-            ]
-        },
+        "id":"81",
+        "title":"うさぎや",
+        "club":"Lavish rabbits",
+        "genreIcon":"fork.knife",
+        "kind":"ドーナツ",
+        "place":"Y1",
+        "area":"Y block",
+        "isSheet":false,
+        "isBookmark":false,
+        "supplement":"",
+        "keywords":[
+            "うさぎや","Lavish rabbits","ドーナツ"
+        ]
+    },
     {
         "id":"32",
         "title":"水泳部のキーマカレー",
         "club":"体育会水泳部",
         "genreIcon":"fork.knife",
-        "kind":"ご飯もの",
+        "kind":"キーマカレー",
         "place":"Y3",
         "area":"Y block",
         "isSheet":false,
@@ -1208,30 +1253,30 @@
         "isBookmark":false,
         "supplement":"",
         "keywords":[
-            "Coconutsのフライドチキン","Coconuts"
+            "Coconutsのフライドチキン","Coconuts","coconuts"
         ]
     },
     {
-            "id":"88",
-            "title":"筋トレサークルのホットドッグ",
-            "club":"YNU筋トレサークル",
-            "genreIcon":"fork.knife",
-            "kind":"軽食",
-            "place":"Y5",
-            "area":"Y block",
-            "isSheet":false,
-            "isBookmark":false,
-            "supplement":"",
-            "keywords":[
-                "筋トレサークルのホットドッグ","YNU筋トレサークル"
-            ]
-        },
+        "id":"88",
+        "title":"筋トレサークルのホットドッグ",
+        "club":"YNU筋トレサークル",
+        "genreIcon":"fork.knife",
+        "kind":"ホットドッグ·レモネード",
+        "place":"Y5",
+        "area":"Y block",
+        "isSheet":false,
+        "isBookmark":false,
+        "supplement":"",
+        "keywords":[
+            "筋トレサークルのホットドッグ","YNU筋トレサークル"
+        ]
+    },
     {
         "id":"19",
         "title":"ホームラン王チョコ・バナーナ",
         "club":"準硬式野球部1年",
         "genreIcon":"fork.knife",
-        "kind":"スイーツ",
+        "kind":"チョコバナナ·アイス",
         "place":"Y6",
         "area":"Y block",
         "isSheet":false,
@@ -1246,14 +1291,14 @@
         "title":"スキューBAR",
         "club":"スキューバダイビング部",
         "genreIcon":"fork.knife",
-        "kind":"ドリンク",
+        "kind":"ノンアルコールカクテル",
         "place":"Y7",
         "area":"Y block",
         "isSheet":false,
         "isBookmark":false,
         "supplement":"",
         "keywords":[
-            "スキューBAR","スキューバダイビング部"
+            "スキューBAR","スキューバダイビング部","カクテル"
         ]
     },
     {
@@ -1261,14 +1306,14 @@
         "title":"ガバガバガパオ",
         "club":"ガパオ卍研究會卍卍",
         "genreIcon":"fork.knife",
-        "kind":"ご飯もの",
+        "kind":"ガパオライス",
         "place":"Y8",
         "area":"Y block",
         "isSheet":false,
         "isBookmark":false,
         "supplement":"",
         "keywords":[
-            "ガバガバガパオ","ガパオ卍研究會卍卍"
+            "ガバガバガパオ","ガパオ卍研究會卍卍","ガパオライス"
         ]
     },
 
@@ -1281,12 +1326,12 @@
         "title":"Stairways常盤祭アカペラライブ",
         "club":"StairwaysA",
         "genreIcon":"music.note",
-        "kind":"特別な場所の企画",
-        "place":"特別な場所",
+        "kind":"アカペラライブ",
+        "place":"Ⅵ",
         "area":"The others",
         "isSheet":false,
         "isBookmark":false,
-        "supplement":"",
+        "supplement":"11/2 13:30~16:00\n11/3 13:30~15:00",
         "keywords":[
             "Stairways常盤祭アカペラライブ","StairwaysA"
         ]
@@ -1296,12 +1341,12 @@
         "title":"BaySound Jazz Orchestra",
         "club":"BaySound Jazz Orchestra A",
         "genreIcon":"music.note",
-        "kind":"特別な場所の企画",
-        "place":"特別な場所",
+        "kind":"ビッグバンド·ジャズの演奏",
+        "place":"Ⅵ",
         "area":"The others",
         "isSheet":false,
         "isBookmark":false,
-        "supplement":"",
+        "supplement":"11/2 10:15~11:45\n11/3 10:15~11:45",
         "keywords":[
             "BaySound Jazz Orchestra","BaySound Jazz Orchestra A"
         ]
@@ -1311,12 +1356,12 @@
         "title":"Ready ON",
         "club":"放送研究会",
         "genreIcon":"music.note",
-        "kind":"特別な場所の企画",
-        "place":"特別な場所",
+        "kind":"ラジオ放送",
+        "place":"Ⅳ",
         "area":"The others",
         "isSheet":false,
         "isBookmark":false,
-        "supplement":"",
+        "supplement":"11/1 13:00~20:00\n11/2 9:00~20:00\n11/3 9:00~15:00",
         "keywords":[
             "Ready ON","放送研究会"
         ]
@@ -1326,12 +1371,12 @@
         "title":"森のマルシェよここく",
         "club":"森のマルシェよここく",
         "genreIcon":"rectangle.inset.filled.and.person.filled",
-        "kind":"特別な場所の企画",
-        "place":"特別な場所",
+        "kind":"地域課題実習プロジェクトによる物販\n飲食物販売、各種展示",
+        "place":"Ⅲ",
         "area":"The others",
         "isSheet":false,
         "isBookmark":false,
-        "supplement":"",
+        "supplement":"11/1 13:00~17:00\n11/2 9:00~17:00\n11/3 9:00~15:00",
         "keywords":[
             "森のマルシェよここく","森のマルシェよここく"
         ]
@@ -1341,12 +1386,12 @@
         "title":"モダンダンス部 常盤祭公演",
         "club":"横浜国立大学モダンダンス部",
         "genreIcon":"music.note",
-        "kind":"特別な場所の企画",
-        "place":"特別な場所",
+        "kind":"モダンダンスの公演",
+        "place":"Ⅵ",
         "area":"The others",
         "isSheet":false,
         "isBookmark":false,
-        "supplement":"",
+        "supplement":"11/1 14:30~15:00",
         "keywords":[
             "モダンダンス部 常盤祭公演","横浜国立大学モダンダンス部"
         ]
@@ -1356,12 +1401,12 @@
         "title":"Back to the Future～時をかけるオーケストラ～",
         "club":"常盤祭オーケストラ",
         "genreIcon":"music.note",
-        "kind":"特別な場所の企画",
-        "place":"特別な場所",
+        "kind":"オーケストラの演奏",
+        "place":"Ⅱ",
         "area":"The others",
         "isSheet":false,
         "isBookmark":false,
-        "supplement":"",
+        "supplement":"11/3 11:30~12:30(開場:11:10)\n　　 14:00~15:00(開場:13:40)",
         "keywords":[
             "Back to the Future～時をかけるオーケストラ～","常盤祭オーケストラ"
         ]
@@ -1371,12 +1416,12 @@
         "title":"グリークラブ 単独コンサート",
         "club":"横浜国立大学グリークラブ",
         "genreIcon":"music.note",
-        "kind":"特別な場所の企画",
-        "place":"特別な場所",
+        "kind":"男声合唱の公演",
+        "place":"Ⅱ",
         "area":"The others",
         "isSheet":false,
         "isBookmark":false,
-        "supplement":"",
+        "supplement":"11/1 13:20~13:50(開場:13:00)\n　　 15:20~15:50(開場:15:00)",
         "keywords":[
             "グリークラブ 単独コンサート","横浜国立大学グリークラブ"
         ]
@@ -1386,46 +1431,76 @@
         "title":"吹奏楽団常盤祭コンサート",
         "club":"横浜国立大学吹奏楽団 A",
         "genreIcon":"music.note",
-        "kind":"特別な場所の企画",
-        "place":"特別な場所",
+        "kind":"演奏",
+        "place":"Ⅱ",
         "area":"The others",
         "isSheet":false,
         "isBookmark":false,
-        "supplement":"",
+        "supplement":"11/2 14:00~14:50(会場:13:30)",
         "keywords":[
             "吹奏楽団常盤祭コンサート","横浜国立大学吹奏楽団 A"
         ]
     },
     {
-            "id":"83",
-            "title":"Liz2024",
-            "club":"Liz A",
-            "genreIcon":"music.note",
-            "kind":"特別な場所の企画",
-            "place":"特別な場所",
-            "area":"The others",
-            "isSheet":false,
-            "isBookmark":false,
-            "supplement":"",
-            "keywords":[
-                "Liz2024","Liz A",
-            ]
-        },
+        "id":"83",
+        "title":"Liz2024",
+        "club":"Liz A",
+        "genreIcon":"music.note",
+        "kind":"ダンスパフォーマンス",
+        "place":"Ⅴ",
+        "area":"The others",
+        "isSheet":false,
+        "isBookmark":false,
+        "supplement":"11/1 16:50~17:40\n11/2 11:45~12:35 16:35~17:25\n11/3 11:50~12:40",
+        "keywords":[
+            "Liz2024","Liz A",
+        ]
+    },
     {
-            "id":"84",
-            "title":"R³ude A",
-            "club":"R³ude A",
-            "genreIcon":"music.note",
-            "kind":"特別な場所の企画",
-            "place":"特別な場所",
-            "area":"The others",
-            "isSheet":false,
-            "isBookmark":false,
-            "supplement":"",
-            "keywords":[
-                "R³ude A"
-            ]
-        },
+        "id":"84",
+        "title":"R³ude A",
+        "club":"R³ude A",
+        "genreIcon":"music.note",
+        "kind":"ダンスパフォーマンス",
+        "place":"Ⅴ",
+        "area":"The others",
+        "isSheet":false,
+        "isBookmark":false,
+        "supplement":"11/1 18:10~19:30\n11/2 13:05~14:30 17:55~19:30\n11/3 13:10~14:30",
+        "keywords":[
+            "R³ude A"
+        ]
+    },
+    {
+        "id":"94",
+        "title":"受け入れる形",
+        "club":"建築学科1年",
+        "genreIcon":"rectangle.inset.filled.and.person.filled",
+        "kind":"仮設建築の展示\n飲食物販売\nパフォーマンス",
+        "place":"Ⅴ",
+        "area":"The others",
+        "isSheet":false,
+        "isBookmark":false,
+        "supplement":"11/1 16:00~20:30\n11/2 9:00~20:00\n11/3 9:00~15:00",
+        "keywords":[
+            "受け入れる形","建築学科1年"
+        ]
+    },
+{
+        "id":"95",
+        "title":"横国ソフトボール",
+        "club":"ペルソナーズ",
+        "genreIcon":"rectangle.inset.filled.and.person.filled",
+        "kind":"ソフトボール大会の実施",
+        "place":"Ⅰ",
+        "area":"The others",
+        "isSheet":false,
+        "isBookmark":false,
+        "supplement":"11/2 12:30~16:30\n11/3 11:00~14:30",
+        "keywords":[
+            "横国ソフトボール","ペルソナーズ"
+        ]
+    },
 
 
 

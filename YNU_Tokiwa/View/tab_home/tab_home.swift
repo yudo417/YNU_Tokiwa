@@ -74,7 +74,7 @@ struct tab_home: View {
             .toolbar{
                 ToolbarItem(placement: .topBarLeading) {
                     Button {
-                        withAnimation(.linear(duration: 0.4)) {
+                        withAnimation(.linear(duration: 0.3)) {
                             isy.toggle()
                             reverse.toggle()    //反転
                             isyy = isy ? 180 : 0
