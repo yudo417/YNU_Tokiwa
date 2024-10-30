@@ -157,21 +157,6 @@
 
 
     {
-        "id":"92",
-        "title":"古着HOLIC",
-        "club":"古着HOLIC",
-        "genreIcon":"rectangle.inset.filled.and.person.filled",
-        "kind":"衣類の販売",
-        "place":"100",
-        "area":"経済・経営学部1号館",
-        "isSheet":false,
-        "isBookmark":false,
-        "supplement":"",
-        "keywords":[
-            "古着HOLIC","古着屋","衣類","衣服"
-        ]
-    },
-    {
         "id":"78",
         "title":"麻雀部模擬雀荘",
         "club":"横浜国立大学麻雀部",
@@ -184,6 +169,21 @@
         "supplement":"",
         "keywords":[
             "麻雀部模擬雀荘","横浜国立大学麻雀部"
+        ]
+    },
+    {
+        "id":"92",
+        "title":"古着HOLIC",
+        "club":"古着HOLIC",
+        "genreIcon":"rectangle.inset.filled.and.person.filled",
+        "kind":"衣類の販売",
+        "place":"100",
+        "area":"経済・経営学部1号館",
+        "isSheet":false,
+        "isBookmark":false,
+        "supplement":"",
+        "keywords":[
+            "古着HOLIC","古着屋","衣類","衣服","holic"
         ]
     },
     {
@@ -236,7 +236,7 @@
         "title":"It's 書time!",
         "club":"書道サークルSepia",
         "genreIcon":"rectangle.inset.filled.and.person.filled",
-        "kind":"初動作品の展示、物販、体験",
+        "kind":"書道作品の展示、物販、体験",
         "place":"205",
         "area":"経済・経営学部1号館",
         "isSheet":false,
@@ -575,7 +575,7 @@
         "isBookmark":false,
         "supplement":"",
         "keywords":[
-            "ぽてぽてぽてと","potato chips B"
+            "ぽてぽてぽてと","potato chips B","ポテト"
         ]
     },
     {
@@ -810,7 +810,7 @@
         ]
     },
     {
-        "id":"92",
+        "id":"98",
         "title":"俺たちのましまし亭",
         "club":"和田町ジロリアン",
         "genreIcon":"fork.knife",
@@ -907,8 +907,8 @@
         "title":"横国焼きそば",
         "club":"山梨研究室",
         "genreIcon":"fork.knife",
-        "kind":"ピザ·ドリンク",
-        "place":"E3",
+        "kind":"焼きそば",
+        "place":"E4",
         "area":"E block",
         "isSheet":false,
         "isBookmark":false,
@@ -959,7 +959,7 @@
         "isBookmark":false,
         "supplement":"",
         "keywords":[
-            "らぽたっぴ","LaPaume","lapaume","la paume"
+            "らぽたっぴ","LaPaume","lapaume","la paume","ラポーム"
         ]
     },
     {
@@ -1128,7 +1128,7 @@
         "isBookmark":false,
         "supplement":"",
         "keywords":[
-            "ポテナゲ","peach sherbet"
+            "ポテナゲ","peach sherbet","ピーチシャーベット"
         ]
     },
     {
@@ -1283,7 +1283,7 @@
         "isBookmark":false,
         "supplement":"",
         "keywords":[
-            "ホームラン王チョコ・バナーナ","準硬式野球部1年"
+            "ホームラン王チョコ・バナーナ","準硬式野球部1年","チョコバナナ"
         ]
     },
     {
@@ -1322,80 +1322,21 @@
 
 
     {
-        "id":"29",
-        "title":"Stairways常盤祭アカペラライブ",
-        "club":"StairwaysA",
-        "genreIcon":"music.note",
-        "kind":"アカペラライブ",
-        "place":"Ⅵ",
-        "area":"The others",
-        "isSheet":false,
-        "isBookmark":false,
-        "supplement":"11/2 13:30~16:00\n11/3 13:30~15:00",
-        "keywords":[
-            "Stairways常盤祭アカペラライブ","StairwaysA"
-        ]
-    },
-    {
-        "id":"51",
-        "title":"BaySound Jazz Orchestra",
-        "club":"BaySound Jazz Orchestra A",
-        "genreIcon":"music.note",
-        "kind":"ビッグバンド·ジャズの演奏",
-        "place":"Ⅵ",
-        "area":"The others",
-        "isSheet":false,
-        "isBookmark":false,
-        "supplement":"11/2 10:15~11:45\n11/3 10:15~11:45",
-        "keywords":[
-            "BaySound Jazz Orchestra","BaySound Jazz Orchestra A"
-        ]
-    },
-    {
-        "id":"53",
-        "title":"Ready ON",
-        "club":"放送研究会",
-        "genreIcon":"music.note",
-        "kind":"ラジオ放送",
-        "place":"Ⅳ",
-        "area":"The others",
-        "isSheet":false,
-        "isBookmark":false,
-        "supplement":"11/1 13:00~20:00\n11/2 9:00~20:00\n11/3 9:00~15:00",
-        "keywords":[
-            "Ready ON","放送研究会"
-        ]
-    },
-    {
-        "id":"60",
-        "title":"森のマルシェよここく",
-        "club":"森のマルシェよここく",
+        "id":"95",
+        "title":"横国ソフトボール",
+        "club":"ペルソナーズ",
         "genreIcon":"rectangle.inset.filled.and.person.filled",
-        "kind":"地域課題実習プロジェクトによる物販\n飲食物販売、各種展示",
-        "place":"Ⅲ",
+        "kind":"ソフトボール大会の実施",
+        "place":"Ⅰ",
         "area":"The others",
         "isSheet":false,
         "isBookmark":false,
-        "supplement":"11/1 13:00~17:00\n11/2 9:00~17:00\n11/3 9:00~15:00",
+        "supplement":"11/2 12:30~16:00\n11/3 11:00~14:30",
         "keywords":[
-            "森のマルシェよここく","森のマルシェよここく"
+            "横国ソフトボール","ペルソナーズ"
         ]
     },
-    {
-        "id":"67",
-        "title":"モダンダンス部 常盤祭公演",
-        "club":"横浜国立大学モダンダンス部",
-        "genreIcon":"music.note",
-        "kind":"モダンダンスの公演",
-        "place":"Ⅵ",
-        "area":"The others",
-        "isSheet":false,
-        "isBookmark":false,
-        "supplement":"11/1 14:30~15:00",
-        "keywords":[
-            "モダンダンス部 常盤祭公演","横浜国立大学モダンダンス部"
-        ]
-    },
+
     {
         "id":"68",
         "title":"Back to the Future～時をかけるオーケストラ～",
@@ -1439,6 +1380,36 @@
         "supplement":"11/2 14:00~14:50(会場:13:30)",
         "keywords":[
             "吹奏楽団常盤祭コンサート","横浜国立大学吹奏楽団 A"
+        ]
+    },
+    {
+        "id":"60",
+        "title":"森のマルシェよここく",
+        "club":"森のマルシェよここく",
+        "genreIcon":"rectangle.inset.filled.and.person.filled",
+        "kind":"地域課題実習プロジェクトによる物販\n飲食物販売、各種展示",
+        "place":"Ⅲ",
+        "area":"The others",
+        "isSheet":false,
+        "isBookmark":false,
+        "supplement":"11/1 13:00~17:00\n11/2 9:00~17:00\n11/3 9:00~15:00",
+        "keywords":[
+            "森のマルシェよここく","森のマルシェよここく"
+        ]
+    },
+    {
+        "id":"53",
+        "title":"Ready ON",
+        "club":"放送研究会",
+        "genreIcon":"music.note",
+        "kind":"ラジオ放送",
+        "place":"Ⅳ",
+        "area":"The others",
+        "isSheet":false,
+        "isBookmark":false,
+        "supplement":"11/1 13:00~20:00\n11/2 9:00~20:00\n11/3 9:00~15:00",
+        "keywords":[
+            "Ready ON","放送研究会"
         ]
     },
     {
@@ -1486,19 +1457,50 @@
             "受け入れる形","建築学科1年"
         ]
     },
-{
-        "id":"95",
-        "title":"横国ソフトボール",
-        "club":"ペルソナーズ",
-        "genreIcon":"rectangle.inset.filled.and.person.filled",
-        "kind":"ソフトボール大会の実施",
-        "place":"Ⅰ",
+
+    {
+        "id":"29",
+        "title":"Stairways常盤祭アカペラライブ",
+        "club":"StairwaysA",
+        "genreIcon":"music.note",
+        "kind":"アカペラライブ",
+        "place":"Ⅵ",
         "area":"The others",
         "isSheet":false,
         "isBookmark":false,
-        "supplement":"11/2 12:30~16:30\n11/3 11:00~14:30",
+        "supplement":"11/2 13:30~16:00\n11/3 13:30~15:00",
         "keywords":[
-            "横国ソフトボール","ペルソナーズ"
+            "Stairways常盤祭アカペラライブ","StairwaysA"
+        ]
+    },
+    {
+        "id":"51",
+        "title":"BaySound Jazz Orchestra",
+        "club":"BaySound Jazz Orchestra A",
+        "genreIcon":"music.note",
+        "kind":"ビッグバンド·ジャズの演奏",
+        "place":"Ⅵ",
+        "area":"The others",
+        "isSheet":false,
+        "isBookmark":false,
+        "supplement":"11/2 10:15~11:45\n11/3 10:15~11:45",
+        "keywords":[
+            "BaySound Jazz Orchestra","BaySound Jazz Orchestra A"
+        ]
+    },
+    {
+        "id":"67",
+        "title":"モダンダンス部 常盤祭公演",
+        "club":"横浜国立大学モダンダンス部",
+        "genreIcon":"music.note",
+        "kind":"モダンダンスの公演",
+        "place":"Ⅵ",
+        "area":"The others",
+        "isSheet":false,
+        "isBookmark":false,
+        "supplement":"11/1 14:30~15:00",
+        "keywords":[
+            "モダンダンス部 常盤祭公演","横浜国立大学モダンダンス部"
         ]
     },
 

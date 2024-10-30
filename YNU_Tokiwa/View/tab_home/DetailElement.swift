@@ -52,7 +52,7 @@ struct DetailElement: View {
                 }
 
                 HStack{
-                    Text("教室")
+                    Text("場所")
                     Text("(")
                     Image(systemName: "mappin.and.ellipse")
                         .foregroundStyle(.red)

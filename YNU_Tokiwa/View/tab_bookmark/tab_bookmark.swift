@@ -100,6 +100,31 @@ extension tab_bookmark{
                 Text("\(shop.area)  \( shop.place)")
                     .centered()
             }
+            VStack{
+
+                HStack{
+                    VStack{
+                        Text("備考")
+                            .fontWeight(.thin)
+
+
+                        Spacer()
+                    }
+                    Spacer()
+                }
+
+                HStack{
+                    if let sup = shop.supplement{
+                        Text(sup)
+//                                .multilineTextAlignment(.leading)
+                            .fixedSize(horizontal: false, vertical: true)
+
+                    }else {
+                        Text("")
+                    }
+                }
+            }
+            .padding(.bottom,20)
         }
     }
 }
